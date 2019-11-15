@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xiaoyuan.mapper.ErpEquipmentMapper" >
+
+<insert id="insert" useGeneratedKeys="true" keyProperty="id">
+   insert into tl_erp_equipment(id,equipment_name,equipment_sn,equipment_area,equipment_ip,equipment_enter,equipment_state,equipment_date,
+   equipment_reason,equipment_maintainer,equipment_meddle,createtime,updatetime,status_,equipment_cate,equipment_addr,equipment_position,remark)
+   
+   values
+   (#{id},#{equipment_name},#{equipment_sn},#{equipment_area},#{equipment_ip},#{equipment_enter},#{equipment_state},#{equipment_date},#{equipment_reason},#{equipment_maintainer}
+   ,#{equipment_meddle},#{createtime},#{updatetime},#{status_},#{equipment_cate},#{equipment_addr},#{equipment_position},#{remark})
+</insert>
+  <select id="getErpEquipment" resultType="com.xiaoyuan.model.ErpEquipment">
+  	select * from tl_erp_equipment
+  	where 1=1
+  	<if test="equipment_sn != null and equipment_sn != ''">
+  		and equipment_sn = #{equipment_sn}
+  	</if>
+  </select>
+  
+  <select id="getMsgByIP" resultType="com.xiaoyuan.model.ErpEquipment">
+  		SELECT t.`equipment_ip`,t.`equipment_addr`,t.`equipment_cate`,t.`equipment_sn`,t.equipment_state FROM tl_erp_equipment t
+		WHERE t.`equipment_sn` IN (SELECT p.`deviceId` FROM tl_erp_device_group p WHERE t.`equipment_ip`=#{equipment_ip})
+  </select>
+  
+  <select id="getMsg" resultType="com.xiaoyuan.model.ErpEquipment">
+  	SELECT equipment_ip,equipment_position FROM tl_erp_equipment WHERE equipment_cate = '摄像头V83-C' AND ManualCtrl = 1
+  </select>
+</mapper>

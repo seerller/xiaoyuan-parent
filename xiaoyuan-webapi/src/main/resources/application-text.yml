@@ -1,0 +1,52 @@
+server:
+  port: 80
+spring:
+  #应用名称
+  application:
+    name: xiaoyuan
+  #使用环境
+  profiles:
+    active: '@profileActive@'
+  session:
+    store-type: redis
+    redis:
+      flush-mode: on_save
+      namespace: session
+      timeout: 86400
+  #redis配置
+  redis:
+    host: 127.0.0.1
+    database: 1
+    timeout: 1s
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+        max-wait: -1ms
+    #密码
+  datasource:
+    datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://rm-wz942s30t361ycw1ufo.mysql.rds.aliyuncs.com
+      username: xiaoyuan123
+      password: xiaoyuan
+      type: com.alibaba.druid.pool.DruidDataSource
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 30000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    filters: stat,wall,slf4j
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+    useGlobalDataSourceStat: true
+mybatis:
+  mapper-locations: classpath*:/mapper/**Mapper.xml
+

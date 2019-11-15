@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xiaoyuan.mapper.ErpUnitMapper" >
+	<select id="lists" resultType="com.xiaoyuan.model.ErpUnit">
+		SELECT t.id,t.user_id, u.user_name AS user_name,t.unit_dept,t.unit_position,t.unit_audit FROM tl_erp_unit t,tl_erp_user u WHERE u.id=t.user_id
+	</select>
+	
+	<update id = "updateUnitByUserid">
+		update tl_erp_unit
+		<set>
+			<if test="unit_dept !='' and unit_dept !=''">
+				unit_dept=#{unit_dept},
+			</if>
+			
+			<if test="unit_position !='' and unit_position !=''">
+				unit_position=#{unit_position},
+			</if>
+			<if test="updatetime != null and updatetime != ''">
+				updatetime= #{updatetime},
+			</if>
+			<if test="unit_audit !='' and unit_audit !=''">
+				unit_audit=#{unit_audit}
+			</if>
+		</set>
+		where user_id=#{user_id}
+	</update>
+	<insert id="insert" useGeneratedKeys="true" keyProperty="id">
+	insert into tl_erp_unit(id,user_id,unit_dept,unit_position,unit_audit,createtime,updatetime,status_)
+	
+	values
+	(#{id},#{user_id},#{unit_dept},#{unit_position},#{unit_audit},#{createtime},#{updatetime},#{status_})
+	
+	</insert>
+	
+	<select id="get" resultType="com.xiaoyuan.model.ErpUnit">
+		select unit_dept,unit_position,unit_audit from tl_erp_unit where id =#{id}
+	 </select>
+</mapper>

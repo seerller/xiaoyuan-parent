@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Class-Path: asm-5.2.jar cxf-rt-wsdl-3.2.1.jar persistence-api-1.0.jar 
+ poi-ooxml-schemas-3.17.jar jackson-annotations-2.9.0.jar curvesapi-1.
+ 04.jar validation-api-2.0.1.Final.jar jackson-datatype-jdk8-2.9.4.jar
+  pagehelper-5.1.2.jar tomcat-embed-el-8.5.28.jar spring-boot-starter-
+ 2.0.0.RELEASE.jar jconsole.jar tomcat-embed-websocket-8.5.28.jar log4
+ j-to-slf4j-2.10.0.jar poi-scratchpad-3.17.jar druid-spring-boot-start
+ er-1.1.9.jar spring-beans-5.0.4.RELEASE.jar log4j-api-2.10.0.jar spri
+ ng-tx-5.0.4.RELEASE.jar thymeleaf-3.0.9.RELEASE.jar cxf-rt-ws-policy-
+ 3.2.1.jar tomcat-embed-core-8.5.28.jar spring-boot-starter-jdbc-2.0.0
+ .RELEASE.jar spring-web-5.0.4.RELEASE.jar jackson-datatype-jsr310-2.9
+ .4.jar mybatis-spring-1.3.1.jar jackson-databind-2.9.4.jar jboss-logg
+ ing-3.3.2.Final.jar jackson-core-2.9.4.jar cxf-rt-databinding-jaxb-3.
+ 2.1.jar poi-3.17.jar spring-boot-starter-tomcat-2.0.0.RELEASE.jar dru
+ id-1.1.0.jar cxf-rt-bindings-soap-3.2.1.jar commons-codec-1.10.jar cx
+ f-spring-boot-autoconfigure-3.2.1.jar spring-webmvc-5.0.4.RELEASE.jar
+  HikariCP-2.7.8.jar cxf-core-3.2.1.jar mybatis-3.4.5.jar xml-resolver
+ -1.2.jar spring-core-5.0.4.RELEASE.jar tools.jar cxf-rt-ws-addr-3.2.1
+ .jar thymeleaf-spring5-3.0.9.RELEASE.jar mybatis-spring-boot-autoconf
+ igure-1.3.1.jar slf4j-api-1.7.25.jar stax2-api-3.1.4.jar jackson-modu
+ le-parameter-names-2.9.4.jar poi-ooxml-3.17.jar neethi-3.1.0.jar wood
+ stox-core-5.0.3.jar spring-boot-autoconfigure-2.0.0.RELEASE.jar mappe
+ r-3.5.3.jar unbescape-1.1.5.RELEASE.jar spring-expression-5.0.4.RELEA
+ SE.jar mybatis-spring-boot-starter-1.3.1.jar cxf-rt-frontend-jaxws-3.
+ 2.1.jar cxf-spring-boot-starter-jaxws-3.2.1.jar hibernate-validator-6
+ .0.7.Final.jar spring-boot-starter-thymeleaf-2.0.0.RELEASE.jar jul-to
+ -slf4j-1.7.25.jar attoparser-2.0.4.RELEASE.jar logback-classic-1.2.3.
+ jar wsdl4j-1.6.3.jar mybatis-generator-core-1.3.2.jar spring-boot-sta
+ rter-logging-2.0.0.RELEASE.jar pagehelper-spring-boot-starter-1.2.3.j
+ ar cxf-rt-bindings-xml-3.2.1.jar mapper-spring-boot-starter-1.2.4.jar
+  spring-jdbc-5.0.4.RELEASE.jar mysql-connector-java-5.1.41.jar spring
+ -jcl-5.0.4.RELEASE.jar spring-boot-2.0.0.RELEASE.jar mapper-spring-bo
+ ot-autoconfigure-1.2.4.jar javax.annotation-api-1.3.2.jar logback-cor
+ e-1.2.3.jar spring-context-5.0.4.RELEASE.jar jsqlparser-1.0.jar stax-
+ api-1.0.1.jar spring-boot-starter-web-2.0.0.RELEASE.jar classmate-1.3
+ .4.jar cxf-rt-transports-http-3.2.1.jar cxf-rt-frontend-simple-3.2.1.
+ jar spring-aop-5.0.4.RELEASE.jar xmlbeans-2.6.0.jar commons-collectio
+ ns4-4.1.jar xmlschema-core-2.2.2.jar pagehelper-spring-boot-autoconfi
+ gure-1.2.3.jar thymeleaf-extras-java8time-3.0.1.RELEASE.jar spring-bo
+ ot-starter-json-2.0.0.RELEASE.jar snakeyaml-1.19.jar
+Main-Class: com.xiaoyuan.SpringBootStartApplication
+

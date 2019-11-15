@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xiaoyuan.mapper.ErpAccountMapper">
+    <!--!!!!!这条肯定不行，全都改了，-->
+    <update id="updateAccountByUserid">
+        update tl_erp_account
+        <set>
+            <if test="account_totalrecharge != null ">
+                account_totalrecharge=#{account_totalrecharge},
+            </if>
+            <if test="account_price != null ">
+                account_price=#{account_price},
+            </if>
+            <if test="account_remark != null and account_remark != ''">
+                account_remark=#{account_remark},
+            </if>
+            <if test="account_bank_card != null and account_bank_card != ''">
+                account_bank_card=#{account_bank_card},
+            </if>
+            <if test="account_serial != null and account_serial != ''">
+                account_serial=#{account_serial},
+            </if>
+            <if test="updatetime != null and updatetime != ''">
+                updatetime= #{updatetime},
+            </if>
+            <if test="audit_man != null and audit_man != ''">
+                audit_man= #{audit_man},
+            </if>
+            <if test="audit_datetime != null and audit_datetime != ''">
+                audit_datetime= #{audit_datetime},
+            </if>
+        </set>
+        where user_id = #{user_id}
+    </update>
+
+    <select id="lists_recharge" resultType="com.xiaoyuan.model.ErpAccount">
+        SELECT
+        t.*,
+        u.user_company_name,
+        u.user_company_sn
+        FROM
+        tl_erp_account t,
+        tl_erp_user u
+        WHERE
+        u.id = t.user_id
+        <if test="user_id != null">
+            AND user_id = #{user_id}
+        </if>
+        <if test="audit != null">
+            AND t.audit = #{audit}
+        </if>
+        <if test="date1 != null and date1!=''">
+            AND t.createtime &gt;= #{date1}
+        </if>
+        <if test="date2 != null and date2!=''">
+            AND t.createtime &lt;= #{date2}
+        </if>
+        <if test="user_company_name != null and user_company_name!=''">
+            AND u.user_company_name = #{user_company_name}
+        </if>
+    </select>
+
+    <!--审核的吧。-->
+    <select id="lists" resultType="com.xiaoyuan.model.ErpAccount">
+		SELECT
+		t.user_id,t.id,u.`user_company_sn` AS
+		user_company_sn,u.`user_company_name` AS
+		user_company_name,account_date,account_information,account_bank_card,account_remark,account_serial,account_price,t.createtime
+		FROM tl_erp_user u,tl_erp_account t
+		WHERE u.id = t.user_id AND
+		t.`audit`=0
+	</select>
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+		insert
+		into
+		tl_erp_account(id,user_id,supplier_id,account_totalrecharge,account_recharge,account_date,account_time,account_price,account_serial,account_bank_card,account_remark,account_detail,createtime,updatetime,status_,account_aduit,account_information,audit,type
+		)
+		values(#{id},#{user_id},#{supplier_id},#{account_totalrecharge},#{account_recharge},#{account_date},#{account_time},#{account_price},#{account_serial},#{account_bank_card},#{account_remark},#{account_detail},#{createtime},#{updatetime},#{status_},#{account_aduit},#{account_information},#{audit},#{type})
+	</insert>
+
+    <insert id="insertService" useGeneratedKeys="true" keyProperty="id" >
+        insert into tl_erp_account
+        <trim prefix="(" suffix=")"  suffixOverrides=",">
+            <if test="id !=null">
+                id,
+            </if>
+            <if test="user_id !=null">
+                user_id,
+            </if>
+            <if test="audit_man !=null">
+                audit_man,
+            </if>
+
+            <if test="supplier_id !=null">
+                supplier_id,
+            </if>
+            <if test="account_totalrecharge !=null">
+                account_totalrecharge,
+            </if>
+            <if test="account_recharge !=null">
+                account_recharge,
+            </if>
+            <if test="account_date !=null">
+                account_date,
+            </if>
+            <if test="account_time !=null">
+                account_time,
+            </if>
+            <if test="account_price !=null">
+                account_price,
+            </if>
+            <if test="account_serial !=null">
+                account_serial,
+            </if>
+            <if test="account_bank_card !=null">
+                account_bank_card,
+            </if>
+            <if test="account_remark !=null">
+                account_remark,
+            </if>
+            <if test="createtime !=null">
+                createtime,
+            </if>
+            <if test="updatetime !=null">
+                updatetime,
+            </if>
+            <if test="status_ !=null">
+                status_,
+            </if>
+            <if test="account_aduit !=null">
+                account_aduit,
+            </if>
+            <if test="account_information !=null">
+                account_information,
+            </if>
+            <if test="audit !=null">
+                audit,
+            </if>
+            <if test="accountType !=null">
+                account_type,
+            </if>
+        </trim>
+        <trim prefix="values(" suffix=")"  suffixOverrides=",">
+            <if test="id !=null">
+                #{id},
+            </if>
+            <if test="user_id !=null">
+                #{user_id},
+            </if>
+            <if test="audit_man !=null">
+                #{audit_man},
+            </if>
+            <if test="supplier_id !=null">
+                #{supplier_id},
+            </if>
+            <if test="account_totalrecharge !=null">
+                #{account_totalrecharge},
+            </if>
+            <if test="account_recharge !=null">
+                #{account_recharge},
+            </if>
+            <if test="account_date !=null">
+                #{account_date},
+            </if>
+            <if test="account_time !=null">
+                #{account_time},
+            </if>
+            <if test="account_price !=null">
+                #{account_price},
+            </if>
+            <if test="account_serial !=null">
+                #{account_serial},
+            </if>
+            <if test="account_bank_card !=null">
+                #{account_bank_card},
+            </if>
+            <if test="account_remark !=null">
+                #{account_remark},
+            </if>
+            <if test="createtime !=null">
+                #{createtime},
+            </if>
+            <if test="updatetime !=null">
+                #{updatetime},
+            </if>
+            <if test="status_ !=null">
+                #{status_},
+            </if>
+            <if test="account_aduit !=null">
+                #{account_aduit},
+            </if>
+            <if test="account_information !=null">
+                #{account_information},
+            </if>
+            <if test="audit !=null">
+                #{audit},
+            </if>
+            <if test="accountType !=null">
+                #{accountType},
+            </if>
+        </trim>
+    </insert>
+
+
+    <select id="get" resultType="com.xiaoyuan.model.ErpAccount">
+		select
+		user_id,account_totalrecharge,account_recharge,account_date,account_time,account_price,account_serial,account_bank_card,account_remark,account_detail,status_,account_information,audit,account_aduit
+		from tl_erp_account where id = #{id}
+	</select>
+    <select id="countBySearch" resultType="java.lang.Integer">
+        SELECT count(ACCOUNT.id)
+         FROM tl_erp_account AS ACCOUNT
+        LEFT JOIN tl_erp_user AS USER ON USER.id = ACCOUNT.user_id
+        <if test="_parameter !=null">
+            <trim prefix="WHERE" prefixOverrides="AND">
+                <if test="startTime != null and endTime !=null">
+                    AND ACCOUNT.createtime between #{startTime} and CONCAT(#{endTime}, ' 23:59:59')
+                </if>
+                <if test="accountType !=null and accountType >=0">
+                    AND ACCOUNT.account_type = #{accountType}
+                </if>
+                <if test="userId !=null">
+                    AND ACCOUNT.user_id = #{userId}
+                </if>
+                <if test="accountCate !=null">
+                    <if test="accountCate == 1">
+                        AND ACCOUNT.account_type in(0,1,2)
+                    </if>
+                    <if test="accountCate == 0">
+                        AND ACCOUNT.account_price in(3,4)
+                    </if>
+                </if>
+                <if test="search !=null and search != ''">
+                    AND (USER.user_company_name LIKE concat( concat( '%', #{search} ),'%'))
+                </if>
+            </trim>
+        </if>
+    </select>
+
+    <select id="selectBySearch" resultType="com.xiaoyuan.model.dto.ErpAccountDto">
+        SELECT
+        ACCOUNT.*,USER.user_company_name,ACCOUNT.createtime AS createTimeTxt,USER.number as user_company_sn,
+        CASE ACCOUNT.account_type WHEN 0 THEN "银行转账"
+        WHEN 1 THEN "承兑汇票"  WHEN 2 THEN "月底返点"  WHEN 3 THEN "退货款" WHEN 4 THEN "挂牌扣款"  WHEN 5 THEN "订单退款" ELSE "未知类型" END AS accountTypeTxt
+        FROM tl_erp_account AS ACCOUNT
+        LEFT JOIN tl_erp_user AS USER ON USER.id = ACCOUNT.user_id
+        <if test="_parameter !=null">
+            <trim prefix="WHERE" prefixOverrides="AND">
+                <if test="startTime != null and endTime !=null">
+                    AND ACCOUNT.createtime between #{startTime} and CONCAT(#{endTime}, ' 23:59:59')
+                </if>
+                <if test="accountType !=null and accountType >=0">
+                    AND ACCOUNT.account_type = #{accountType}
+                </if>
+                <if test="userId !=null">
+                    AND ACCOUNT.user_id = #{userId}
+                </if>
+                <if test="accountCate !=null">
+                    <if test="accountCate == 1">
+                        AND ACCOUNT.account_type in(0,1,2)
+                    </if>
+                    <if test="accountCate == 0">
+                        AND ACCOUNT.account_price in(3,4)
+                    </if>
+                </if>
+                <if test="search !=null and search != ''">
+                    AND (USER.user_company_name LIKE concat( concat( '%', #{search} ),'%'))
+                </if>
+            </trim>
+        </if>
+        order by ACCOUNT.createtime DESC
+    </select>
+
+    <select id="sumAccountPriceBySearch" resultType="java.lang.String">
+        SELECT
+        FORMAT(IFNULL(SUM(account_price),0),2)
+        FROM tl_erp_account AS ACCOUNT
+        <if test="_parameter !=null">
+            <trim prefix="WHERE" prefixOverrides="AND">
+                <if test="startTime != null and endTime !=null">
+                    AND ACCOUNT.createtime between #{startTime} and CONCAT(#{endTime}, ' 23:59:59')
+                </if>
+                <if test="accountType !=null">
+                    AND ACCOUNT.account_type = #{accountType}
+                </if>
+                <if test="userId !=null">
+                    AND ACCOUNT.user_id = #{userId}
+                </if>
+                <if test="accountCate !=null">
+                    <if test="accountCate == 1">
+                        AND ACCOUNT.account_type in(0,1,2)
+                    </if>
+                    <if test="accountCate == 0">
+                        AND ACCOUNT.account_type in(3,4)
+                    </if>
+                </if>
+            </trim>
+        </if>
+    </select>
+    <select id="countInAndOutTotal" resultType="com.xiaoyuan.model.dto.ErpAccountCountTotalDto">
+        SELECT
+        FORMAT(IFNULL(SUM(CASE WHEN ACCOUNT.account_price &gt; 0 THEN ACCOUNT.account_price ELSE 0 END ),0.00),2) AS inAccountTotal,
+        FORMAT(IFNULL(SUM(CASE WHEN ACCOUNT.account_price &lt; 0 THEN ACCOUNT.account_price ELSE 0 END ) * -1,0.00),2)  AS outAccountTotal
+        FROM tl_erp_account AS ACCOUNT
+        LEFT JOIN tl_erp_user AS USER ON USER.id = ACCOUNT.user_id
+        WHERE 1=1
+        <if test="_parameter !=null">
+                <if test="startTime != null and endTime !=null">
+                    AND ACCOUNT.createtime between #{startTime} and CONCAT(#{endTime}, ' 23:59:59')
+                </if>
+                <if test="userId !=null">
+                    AND ACCOUNT.user_id = #{userId}
+                </if>
+                <if test="accountCate !=null">
+                    <if test="accountCate == 1">
+                        AND ACCOUNT.account_type in(0,1,2)
+                    </if>
+                    <if test="accountCate == 0">
+                        AND ACCOUNT.account_price in(3,4)
+                    </if>
+                </if>
+            <if test="search !=null and search != ''">
+                AND (USER.user_company_name LIKE concat( concat( '%', #{search} ),'%'))
+            </if>
+        </if>
+    </select>
+
+
+</mapper>

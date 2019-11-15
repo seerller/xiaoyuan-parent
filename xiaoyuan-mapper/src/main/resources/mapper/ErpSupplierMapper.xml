@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xiaoyuan.mapper.ErpSupplierMapper">
+
+    <!-- YZH 20190304 debug 91 没有使用非空全字段，所以数据没有写入，，在这里添加然后写入，，， 应该不用表前缀，， -->
+    <!-- 可能是s表设计了多次的关系 -->
+    <update id="updateByUserid">
+        update tl_erp_supplier
+        <set>
+
+            <if test="supplier_name != null and supplier_name != ''">
+                supplier_name=#{supplier_name},
+            </if>
+
+            <!-- 增加字段===== -->
+            <if test="supplier_sn != null and supplier_sn != ''">
+                supplier_sn=#{supplier_sn},
+            </if>
+            <if test="supplier_contact != null and supplier_contact != ''">
+                supplier_contact=#{supplier_contact},
+            </if>
+            <if test="supplier_telephone != null and supplier_telephone != ''">
+                supplier_telephone=#{supplier_telephone},
+            </if>
+            <if test="supplier_wechat != null and supplier_wechat != ''">
+                supplier_wechat=#{supplier_wechat},
+            </if>
+            <if test="goods_sn != null and goods_sn != ''">
+                goods_sn=#{goods_sn},
+            </if>
+            <!-- END====== -->
+            <!-- 按表排序，，， -->
+            <if test="goods_name != null and goods_name != ''">
+                goods_name=#{goods_name},
+            </if>
+            <if test="goods_price != null ">
+                goods_price=#{goods_price},
+            </if>
+            <!-- 增加字段===== -->
+            <if test="goods_unit != null and goods_unit != ''">
+                goods_unit= #{goods_unit},
+            </if>
+            <if test="createtime != null and createtime != ''">
+                createtime= #{createtime},
+            </if>
+            <!-- END====== -->
+            <if test="updatetime != null and updatetime != ''">
+                updatetime= #{updatetime},
+            </if>
+            <if test="status_ != null">status_= #{status_},</if>
+            <if test="supplier_cate != null and supplier_cate != ''">
+                supplier_cate=#{supplier_cate},
+            </if>
+            <if test="supplier_audit != null and supplier_audit != ''">
+                supplier_audit=#{supplier_audit},
+            </if>
+            <!-- 增加字段===== -->
+            <!-- model没有这个字段 -->
+            <!-- <if test="supplier_spec != null and supplier_spec != ''"> supplier_spec=#{supplier_spec},
+                </if> -->
+            <if test="goods_cate != null and goods_cate != ''">
+                goods_cate=#{goods_cate},
+            </if>
+            <if test="state != null and state != ''">
+                state=#{state},
+            </if>
+            <!-- model没有这个字段 -->
+            <!-- <if test="supplier_phone != null and supplier_phone != ''"> supplier_phone=#{supplier_phone},
+                </if> -->
+            <if test="company_name != null and company_name != ''">
+                company_name=#{company_name},
+            </if>
+            <if test="company_address != null and company_address != ''">
+                company_address=#{company_address},
+            </if>
+
+            <!-- END====== -->
+
+        </set>
+        where user_id = #{user_id}
+    </update>
+
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+		insert
+		into
+		tl_erp_supplier(id,user_id,supplier_name,supplier_sn,supplier_contact,supplier_telephone,supplier_wechat,goods_sn,
+		goods_name,goods_price,goods_unit,createtime,updatetime,status_,supplier_cate,supplier_audit,goods_cate,company_name,company_address)
+
+		values
+		(#{id},#{user_id},#{supplier_name},#{supplier_sn},#{supplier_contact},#{supplier_telephone},#{supplier_wechat},#{goods_sn},#{goods_name},
+		#{goods_price},#{goods_unit},#{createtime},#{updatetime},#{status_},
+		#{supplier_cate},#{supplier_audit},#{goods_cate},#{company_name},#{company_address})
+	</insert>
+
+    <!-- YZH 20190304 debug 91 查的东西不够 增加u.*, r.*, -->
+    <select id="lists" resultType="com.xiaoyuan.model.ErpSupplier">
+        SELECT
+        u.*,
+        r.*,
+        r.`user_id`,
+        r.id,
+        u.user_company_name,
+        u.user_name AS
+        supplier_name,
+        u.`user_company_sn` AS user_company_sn,
+        r.`supplier_contact`,
+        u.`user_phone` AS user_phone,
+        u.`user_telephone`
+        AS user_telephone,
+        u.`user_wechat` AS user_wechat,
+        u.`company_address`
+        AS company_address,
+        r.goods_sn,
+        r.`goods_name`,
+        r.`goods_price`,
+        u.id AS
+        u_id
+        FROM
+        tl_erp_user u
+        left JOIN tl_erp_supplier r
+        ON u.id = r.`user_id`
+        <!-- LEFT JOIN tl_erp_ingoods i ON r.goods_name = i.`goods_name` -->
+        WHERE u.audit = 1
+        and u.role_id=2
+        <if test="goods_name != null and goods_name !=''">
+            AND r.goods_name = #{goods_name}
+        </if>
+        <if test="search!=null and search!=''">
+            AND (
+            u.user_wechat LIKE concat( concat( '%', #{search} ), '%' )
+            OR u.user_telephone LIKE concat( concat( '%', #{search} ), '%' )
+            OR u.user_phone LIKE concat( concat( '%', #{search} ), '%' )
+            OR u.user_name LIKE concat( concat( '%', #{search} ), '%' )
+            OR u.user_description LIKE concat( concat( '%', #{search} ), '%' )
+            OR u.user_contact LIKE concat( concat( '%', #{search} ), '%' )
+            OR u.user_company_sn LIKE concat( concat( '%', #{search} ), '%' )
+            OR u.user_company_name LIKE concat( concat( '%', #{search} ), '%' )
+            OR u.user_address LIKE concat( concat( '%', #{search} ), '%' )
+            OR u.province_txt LIKE concat( concat( '%', #{search} ), '%' )
+            OR u.city_txt LIKE concat( concat( '%', #{search} ), '%' )
+            OR u.area_txt LIKE concat( concat( '%', #{search} ), '%' )
+            OR r.supplier_wechat LIKE concat( concat( '%', #{search} ), '%' )
+            OR r.supplier_telephone LIKE concat( concat( '%', #{search} ), '%' )
+            OR r.supplier_spec LIKE concat( concat( '%', #{search} ), '%' )
+            OR r.supplier_sn LIKE concat( concat( '%', #{search} ), '%' )
+            OR r.supplier_phone LIKE concat( concat( '%', #{search} ), '%' )
+            OR r.supplier_name LIKE concat( concat( '%', #{search} ), '%' )
+            OR r.supplier_contact LIKE concat( concat( '%', #{search} ), '%' )
+            OR r.goods_sn LIKE concat( concat( '%', #{search} ), '%' )
+            OR r.goods_unit LIKE concat( concat( '%', #{search} ), '%' )
+            OR r.goods_name LIKE concat( concat( '%', #{search} ), '%' )
+            OR r.company_name LIKE concat( concat( '%', #{search} ), '%' )
+            OR r.company_address LIKE concat( concat( '%', #{search} ), '%' )
+            )
+        </if>
+    </select>
+
+    <select id="get" resultType="com.xiaoyuan.model.ErpSupplier">
+		SELECT
+		supplier_name,supplier_sn,supplier_telephone,supplier_wechat,goods_sn,goods_name,goods_price,goods_unit,supplier_cate,supplier_audit,supplier_spec,goods_cate,state,supplier_phone
+		from tl_erp_supplier where id = #{id}
+	</select>
+
+    <delete id="deleteByUserId">
+		delete from tl_erp_supplier where user_id =#{user_id}
+	</delete>
+
+    <select id="selectByUserId" resultType="com.xiaoyuan.model.ErpSupplier">
+		SELECT
+		*
+		from tl_erp_supplier where user_id = #{id}
+	</select>
+
+</mapper>

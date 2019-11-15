@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xiaoyuan.mapper.ErpGpsMapper">
+    <select id="lists" resultType="com.xiaoyuan.model.ErpGPS">
+            SELECT
+                d.user_id,
+                s.*,
+                s.gps_sn,
+                s.gps_imei,
+                d.car_sn AS car_sn,
+                u.user_name AS user_name,
+                u.user_phone AS user_phone
+            FROM
+                tl_erp_gps s,
+                tl_erp_driver d,
+                tl_erp_user u
+            WHERE
+                s.driver_id = d.id
+                AND d.user_id = u.id
+	</select>
+
+    <select id="lists_alarm" resultType="com.xiaoyuan.model.ErpGPS">
+		SELECT g.gps_sn,o.car_order_address AS car_order_address,d.car_sn AS car_sn,u.user_name AS user_name,u.user_phone AS user_phone,g.`gps_alarm_cate`,g.`gps_handling`
+		FROM tl_erp_gps g,tl_erp_car_order o,tl_erp_driver d,tl_erp_user u
+		WHERE g.driver_id = d.id AND o.driver_id = d.id AND o.gps_id = g.id AND u.id = d.user_id
+	</select>
+
+    <select id="lists_real_information" resultType="com.xiaoyuan.model.ErpGPS">
+		SELECT gps_real_car,gps_queue,gps_send_goods FROM tl_erp_gps
+	</select>
+
+    <select id="lists_alarm_statistical" resultType="com.xiaoyuan.model.ErpGPS">
+		SELECT g.createtime, g.gps_sn,d.car_sn AS car_sn,u.user_name AS user_name,u.user_phone AS user_phone,g.`gps_alarm_cate`,g.gps_handling
+		FROM tl_erp_user u
+		INNER JOIN tl_erp_driver d ON u.id = d.user_id
+		LEFT JOIN tl_erp_gps g  ON g.driver_id = d.id
+	</select>
+
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+		insert into tl_erp_gps(id,gps_sn,car_id,driver_id,gps_phone,gps_queue,gps_real_car,gps_send_goods,gps_real_monitoring,gps_history_track,gps_electronic_fence,createtime,updatetime,status_,gps_imei,gps_alarm_cate,gps_handling)
+		values
+		(#{id},#{gps_sn},#{car_id},#{driver_id},#{gps_phone},#{gps_queue},#{gps_real_car},#{gps_send_goods},#{gps_real_monitoring},#{gps_history_track},#{gps_electronic_fence},#{createtime},#{updatetime},#{status_},#{gps_imei},#{gps_alarm_cate},#{gps_handling})
+	</insert>
+    <insert id="insertService">
+        insert into
+        tl_erp_gps
+        <trim prefix="(" suffixOverrides="," suffix=")">
+            <if test="driver_id != null ">
+                driver_id,
+            </if>
+            <if test="gps_sn != null ">
+                gps_sn,
+            </if>
+            <if test="gps_phone != null">
+                gps_phone,
+            </if>
+            <if test="gps_queue != null ">
+                gps_queue,
+            </if>
+            <if test="gps_real_car != null ">
+                gps_real_car,
+            </if>
+            <if test="gps_send_goods != null ">
+                gps_send_goods,
+            </if>
+            <if test="gps_real_monitoring != null">
+                gps_real_monitoring,
+            </if>
+            <if test="gps_history_track != null ">
+                gps_history_track,
+            </if>
+            <if test="gps_electronic_fence != null">
+                gps_electronic_fence,
+            </if>
+            <if test="status_ != null ">
+                status_,
+            </if>
+            <if test="gps_imei != null">
+                gps_imei,
+            </if>
+            <if test="gps_alarm_cate != null">
+                gps_alarm_cate,
+            </if>
+            <if test="gps_handling != null">
+                gps_handling,
+            </if>
+            <if test="updatetime != null">
+                updatetime,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="driver_id != null ">
+                #{driver_id},
+            </if>
+            <if test="gps_sn != null ">
+                #{gps_sn},
+            </if>
+            <if test="gps_phone != null">
+                #{gps_phone},
+            </if>
+            <if test="gps_queue != null">
+                #{gps_queue},
+            </if>
+            <if test="gps_real_car != null ">
+                #{gps_real_car},
+            </if>
+            <if test="gps_send_goods != null ">
+                #{gps_send_goods},
+            </if>
+            <if test="gps_real_monitoring != null ">
+                #{gps_real_monitoring},
+            </if>
+            <if test="gps_history_track != null">
+                #{gps_history_track},
+            </if>
+            <if test="gps_electronic_fence != null ">
+                #{gps_electronic_fence},
+            </if>
+            <if test="status_ != null ">
+                #{status_},
+            </if>
+            <if test="gps_imei != null ">
+                #{gps_imei},
+            </if>
+            <if test="gps_alarm_cate != null ">
+                #{gps_alarm_cate},
+            </if>
+            <if test="gps_handling != null">
+                #{gps_handling},
+            </if>
+            <if test="updatetime != null">
+                #{updatetime},
+            </if>
+        </trim>
+
+    </insert>
+
+    <update id="updateByCarId">
+        update tl_erp_gps
+        <set>
+            <if test="gps_sn != null ">
+                gps_sn= #{gps_sn},
+            </if>
+            <if test="gps_phone != null and gps_phone != ''">
+                gps_phone= #{gps_phone},
+            </if>
+            <if test="gps_queue != null and gps_queue != ''">
+                gps_queue= #{gps_queue},
+            </if>
+            <if test="gps_real_car != null and gps_real_car != ''">
+                gps_real_car= #{gps_real_car},
+            </if>
+            <if test="gps_send_goods != null and gps_send_goods != ''">
+                gps_send_goods= #{gps_send_goods},
+            </if>
+            <if test="gps_real_monitoring != null and gps_real_monitoring != ''">
+                gps_real_monitoring= #{gps_real_monitoring},
+            </if>
+            <if test="gps_history_track != null and gps_history_track != ''">
+                gps_history_track= #{gps_history_track},
+            </if>
+            <if test="gps_electronic_fence != null and gps_electronic_fence != ''">
+                gps_electronic_fence= #{gps_electronic_fence},
+            </if>
+            <if test="status_ != null ">
+                status_= #{status_},
+            </if>
+            <if test="gps_imei != null and gps_imei != ''">
+                gps_imei= #{gps_imei},
+            </if>
+
+            <if test="gps_alarm_cate != null and gps_alarm_cate != ''">
+                gps_alarm_cate= #{gps_alarm_cate},
+            </if>
+            <if test="gps_handling != null and gps_handling != ''">
+                gps_handling= #{gps_handling},
+            </if>
+            <if test="updatetime != null and updatetime != ''">
+                updatetime= #{updatetime},
+            </if>
+        </set>
+        where car_id = #{car_id}
+    </update>
+
+
+
+
+    <update id="updateServiceByPrimaryKey">
+        update tl_erp_gps
+        <set>
+            <trim suffixOverrides=",">
+                <if test="gps_sn !=null">
+                    gps_sn = #{gps_sn},
+                </if>
+                <if test="car_id !=null">
+                    car_id = #{car_id},
+                </if>
+                <if test="driver_id !=null">
+                    driver_id = #{driver_id},
+                </if>
+                <if test="gps_phone !=null">
+                    gps_phone = #{gps_phone},
+                </if>
+                <if test="gps_queue !=null">
+                    gps_queue = #{gps_queue},
+                </if>
+                <if test="gps_real_car !=null">
+                    gps_real_car = #{gps_real_car},
+                </if>
+                <if test="gps_send_goods !=null">
+                    gps_send_goods = #{gps_send_goods},
+                </if>
+                <if test="gps_real_monitoring !=null">
+                    gps_real_monitoring = #{gps_real_monitoring},
+                </if>
+                <if test="gps_history_track !=null">
+                    gps_history_track = #{gps_history_track},
+                </if>
+                <if test="gps_electronic_fence !=null">
+                    gps_electronic_fence = #{gps_electronic_fence},
+                </if>
+                <if test="createtime !=null">
+                    createtime = #{createtime},
+                </if>
+                <if test="updatetime !=null">
+                    updatetime = #{updatetime},
+                </if>
+                <if test="status_ !=null">
+                    status_ = #{status_},
+                </if>
+                <if test="gps_imei !=null">
+                    gps_imei = #{gps_imei},
+                </if>
+                <if test="gps_alarm_cate !=null">
+                    gps_alarm_cate = #{gps_alarm_cate},
+                </if>
+                <if test="gps_handling !=null">
+                    gps_handling = #{gps_handling},
+                </if>
+                <if test="order_id !=null">
+                    order_id = #{order_id},
+                </if>
+            </trim>
+        </set>
+        where id = #{id}
+    </update>
+
+    <select id="get" resultType="com.xiaoyuan.model.ErpGPS">
+		select gps_sn,car_id,driver_id,gps_phone,gps_queue,gps_real_car,gps_send_goods,gps_real_monitoring,gps_history_track,gps_electronic_fence,gps_imei,gps_alarm_cate,gps_handling from tl_erp_gps where id = #{id}
+	</select>
+
+    <select id="getGpsByCarid" resultType="com.xiaoyuan.model.ErpGPS">
+		select gps_sn,car_id,driver_id,gps_phone,gps_queue,gps_real_car,gps_send_goods,gps_real_monitoring,gps_history_track,gps_electronic_fence,gps_imei,gps_alarm_cate,gps_handling from tl_erp_gps where car_id = #{car_id}
+	</select>
+    <select id="resultGpsSnByDriverId" resultType="com.xiaoyuan.model.ErpGPS">
+        SELECT gps_sn,gps_imei from tl_erp_gps WHERE 1 = 1 AND driver_id = #{driverId}
+    </select>
+</mapper>

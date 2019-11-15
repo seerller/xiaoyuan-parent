@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xiaoyuan.mapper.ErpRoleMapper">
+	<insert id="insert" keyProperty="id" useGeneratedKeys="true">
+		insert
+		into tl_erp_role (id,role_name,status_,createtime,updatetime)
+		values(#{id},#{role_name},#{status_},#{createtime},#{updatetime})
+	</insert>
+
+	<select id="getRole" resultType="com.xiaoyuan.model.ErpRole">
+		select * from tl_erp_role where
+		role_name=#{role_name}
+	</select>
+
+	<select id="lists" resultType="com.xiaoyuan.model.ErpRole">
+		select id,role_name from
+		tl_erp_role where id != 5
+	</select>
+	<select id="getId" resultType="java.lang.Integer">
+		SELECT CASE WHEN ISNULL(SUM(role_id)) THEN 0 ELSE SUM(role_id) END AS SUM
+		FROM tl_user_child_role WHERE role_name=#{role_name};
+	</select>
+</mapper>

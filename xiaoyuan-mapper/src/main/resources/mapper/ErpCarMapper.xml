@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xiaoyuan.mapper.ErpCarMapper">
+	<select id="lists" resultType="com.xiaoyuan.model.ErpCar">
+		SELECT c.id,
+		c.car_owner,c.`car_contact_phone`,r.car_sn,r.car_cate FROM
+		tl_erp_driver r, tl_erp_car c,tl_erp_card d
+		where
+		r.id = c.driver_id AND
+		r.id = d.driver_id
+	</select>
+
+	<insert id="insert" keyProperty="id" useGeneratedKeys="true">
+		insert
+		into
+		tl_erp_car(id,user_id,driver_id,car_owner,car_contact_phone,car_weight,car_length,car_load,createtime,updatetime,status_)
+		values
+		(#{id},#{user_id},#{driver_id},#{car_owner},#{car_contact_phone},#{car_weight},#{car_length},#{car_load},#{createtime},#{updatetime},#{status_})
+	</insert>
+
+
+	<insert id="insertService">
+		insert into
+		tl_erp_car
+		<trim prefix="(" suffixOverrides="," suffix=")">
+			<if test="driver_id != null">
+				driver_id,
+			</if>
+			<if test="user_id != null">
+				user_id,
+			</if>
+			<if test="car_owner != null">
+				car_owner,
+			</if>
+			<if test="car_contact_phone != null">
+				car_contact_phone,
+			</if>
+			<if test="car_length != null">
+				car_length,
+			</if>
+			<if test="car_weight != null">
+				car_weight,
+			</if>
+			<if test="car_load != null">
+				car_load,
+			</if>
+			<if test="createtime != null">
+				createtime,
+			</if>
+			<if test="updatetime != null">
+				updatetime,
+			</if>
+			<if test="status_ != null">
+				status_,
+			</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="driver_id != null">
+				#{driver_id},
+			</if>
+			<if test="user_id != null">
+				#{user_id},
+			</if>
+			<if test="car_owner != null">
+				#{car_owner},
+			</if>
+			<if test="car_contact_phone != null">
+				#{car_contact_phone},
+			</if>
+			<if test="car_length != null">
+				#{car_length},
+			</if>
+			<if test="car_weight != null">
+				#{car_weight},
+			</if>
+			<if test="car_load != null">
+				#{car_load},
+			</if>
+			<if test="createtime != null">
+				#{createtime},
+			</if>
+			<if test="updatetime != null">
+				#{updatetime},
+			</if>
+			<if test="status_ != null">
+				#{status_},
+			</if>
+
+		</trim>
+	</insert>
+
+	<select id="getIdByUserId" resultType="com.xiaoyuan.model.ErpCar">
+		select
+		id,car_owner,car_contact_phone,car_weight,car_length,car_load from
+		tl_erp_car where user_id = #{id}
+	</select>
+
+	<select id="getCarByMsg" resultType="com.xiaoyuan.model.ErpCar">
+		SELECT
+		r.*
+		FROM
+		tl_erp_driver dr
+		INNER JOIN tl_erp_car r ON dr.id = r.`driver_id`
+		INNER JOIN tl_erp_card d ON dr.id = d.`driver_id`
+		WHERE
+		1 =1
+		<if test="car_sn!=null and car_sn!=''">
+			AND dr.`car_sn` =
+			#{car_sn}
+		</if>
+
+	</select>
+
+	<select id="lists_car_state" resultType="com.xiaoyuan.model.ErpCar">
+		SELECT o.id,
+		o.`car_order_sn` AS car_order_sn,d.`card_rfid` AS
+		card_rfid,dr.`car_sn` AS car_sn,u.`user_name` AS
+		user_name,s.`goods_name` AS goods_name,o.`car_order_pick_num` AS
+		car_order_pick_num,o.`car_order_nowstate` AS
+		car_order_nowstate,o.`car_order_thenstate` AS car_order_thenstate,
+		o.`in_time` AS in_time,o.`out_time` AS out_time
+		FROM tl_erp_car_order
+		o,tl_erp_card d,tl_erp_driver dr,tl_erp_user u,tl_erp_supplier s
+		WHERE
+		u.id = dr.`user_id` AND u.id = s.`user_id`
+		AND d.`driver_id`= dr.id AND
+		o.`driver_id`= dr.`id`
+	</select>
+
+	<select id="lists_car_pick" resultType="com.xiaoyuan.model.ErpCar">
+		SELECT o.id,
+		dr.`driver_delivery_sn` AS driver_delivery_sn,dr.`car_sn` AS
+		car_sn,dr.`car_cate` AS car_cate,o.`car_order_pick_num` AS
+		car_order_pick_num,s.`goods_name` AS goods_name,s.`goods_sn` AS
+		goods_sn,o.`car_order_pickdate` AS car_order_pickdate
+		FROM
+		tl_erp_driver dr,tl_erp_car_order o,tl_erp_supplier s
+		WHERE dr.id
+		=o.`driver_id`
+	</select>
+
+	<select id="getIdByDriverId" resultType="com.xiaoyuan.model.ErpCar">
+		select id,driver_id from
+		tl_erp_car where driver_id= #{driver_id}
+	</select>
+
+	<update id="updateByDriverId">
+		update tl_erp_car
+		<set>
+			<if test="car_owner != null and car_owner != ''">
+				car_owner = #{car_owner},
+			</if>
+			<if test="car_contact_phone != null and car_contact_phone != ''">
+				car_contact_phone = #{car_contact_phone},
+			</if>
+			<if test="car_weight != null and car_weight != ''">
+				car_weight = #{car_weight},
+			</if>
+			<if test="car_length != null and car_length != ''">
+				car_length = #{car_length},
+			</if>
+			<if test="car_load != null and car_load != ''">
+				car_load = #{car_load},
+			</if>
+			<if test="updatetime != null and updatetime != ''">
+				updatetime = #{updatetime},
+			</if>
+			<if test="status_ != null and status_ != ''">
+				status_ = #{status_}
+			</if>
+		</set>
+		where driver_id = #{driver_id}
+	</update>
+	<update id="updateServiceByPrimaryKey">
+		update tl_erp_car
+		<set>
+			<trim suffixOverrides=",">
+				<if test="driver_id != null">
+					driver_id= #{driver_id},
+				</if>
+				<if test="user_id != null">
+					user_id= #{user_id},
+				</if>
+				<if test="car_owner != null">
+					car_owner= #{car_owner},
+				</if>
+				<if test="car_contact_phone != null">
+					car_contact_phone= #{car_contact_phone},
+				</if>
+				<if test="car_length != null">
+					car_length= #{car_length},
+				</if>
+				<if test="car_weight != null">
+					car_weight= #{car_weight},
+				</if>
+				<if test="car_load != null">
+					car_load= #{car_load},
+				</if>
+				<if test="createtime != null">
+					createtime= #{createtime},
+				</if>
+				<if test="updatetime != null">
+					updatetime= #{updatetime},
+				</if>
+				<if test="status_ != null">
+					status_= #{status_},
+				</if>
+
+			</trim>
+		</set>
+		where id = #{id}
+	</update>
+
+	<select id="get" resultType="com.xiaoyuan.model.ErpCar">
+		select
+		car_owner,car_contact_phone,car_weight,car_length,car_load from
+		tl_erp_car where id = #{id}
+	</select>
+
+	<!-- YZH 20190305 debug 84 getCardByCarid? -->
+	<select id="getCar" resultType="com.xiaoyuan.model.ErpCar">
+		SELECT
+		r.id,r.user_id,r.driver_id, dr.car_sn AS car_sn,r.`car_owner` AS
+		car_owner,car_contact_phone,u.user_name AS user_name,u.user_phone AS
+		user_phone,d.card_rfid,car_weight,car_length,car_load,s.gps_sn,s.gps_imei,dr.driver_sn
+		as driver_sn,dr.driver_use_date as driver_use_date,dr.driver_eff_date
+		as driver_eff_date
+		FROM tl_erp_user u
+		INNER JOIN tl_erp_driver dr ON
+		u.id = dr.`user_id`
+
+		LEFT JOIN tl_erp_card d ON d.`driver_id` = dr.id
+		LEFT JOIN tl_erp_gps s ON s.driver_id = dr.id
+		INNER JOIN tl_erp_car r
+		ON r.`driver_id`=dr.id
+
+		AND u.id = #{id}
+	</select>
+
+
+</mapper>

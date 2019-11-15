@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <context id="MysqlContext" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+        <property name="beginningDelimiter" value="`"/>
+        <property name="endingDelimiter" value="`"/>
+
+        <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+            <property name="mappers" value="com.xiaoyuan.tools.MapperConfig"/>
+        </plugin>
+
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/yuanqu"
+                        userId="root"
+                        password="root">
+        </jdbcConnection>
+
+        <!-- 对于生成的pojo所在包 -->
+        <javaModelGenerator targetPackage="com.xiaoyuan.model" targetProject="src/main/java"/>
+
+		<!-- 对于生成的mapper所在目录 -->
+        <!-- <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"/> -->
+
+		<!-- 配置mapper对应的java映射 -->
+        <javaClientGenerator targetPackage="com.xiaoyuan.mapper" targetProject="src/main/java"
+                             type="XMLMAPPER"/>
+
+
+		<table tableName="tl_erp_account"></table>
+		<table tableName="tl_erp_area"></table>
+		<table tableName="tl_erp_car"></table>
+		<table tableName="tl_erp_car_state"></table>
+		<table tableName="tl_erp_client"></table>
+		<table tableName="tl_erp_equipment"></table>
+		<table tableName="tl_erp_evaluation"></table>
+		<table tableName="tl_erp_gps"></table>
+		<table tableName="tl_erp_ingoods"></table>
+		<table tableName="tl_erp_order_car"></table>
+		<table tableName="tl_erp_pickgoods"></table>
+		<table tableName="tl_erp_price"></table>
+		<table tableName="tl_erp_rebate"></table>
+		<table tableName="tl_erp_supplier"></table>
+		<table tableName="tl_erp_unit"></table>
+		<table tableName="tl_erp_user"></table>
+		<table tableName="tl_erp_users"></table>
+		<table tableName="tl_erp_warehouse"></table>
+		
+		
+		
+		 
+    </context>
+</generatorConfiguration>

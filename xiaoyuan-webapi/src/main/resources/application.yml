@@ -1,0 +1,4 @@
+spring:
+    profiles:
+      #使用环境配置
+      active: 'local'
