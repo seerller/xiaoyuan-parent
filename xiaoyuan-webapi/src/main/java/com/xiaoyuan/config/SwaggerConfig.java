@@ -23,9 +23,9 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("园区接口列表")
-                .description("aaa")
-                .termsOfServiceUrl("aaaa")
+                .title("智慧校园管理系统接口文档")
+                .description("为前端调用service的接口文档")
+                .termsOfServiceUrl("http://blog.csdn.net/saytime")
                 .version("1.0")
                 .build();
     }

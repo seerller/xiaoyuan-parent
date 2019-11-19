@@ -2,8 +2,10 @@
 <!DOCTYPE generatorConfiguration
         PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
-
+<!--利用Mybatis generator自动生成是替代吗代码配置文件-->
 <generatorConfiguration>
+	<!--配置数据库驱动-->
+	<classPathEntry  location="E:\project\common\maven\localRepository\mysql\mysql-connector-java\5.1.41\mysql-connector-java-5.1.41.jar"/>
     <context id="MysqlContext" targetRuntime="MyBatis3Simple" defaultModelType="flat">
         <property name="beginningDelimiter" value="`"/>
         <property name="endingDelimiter" value="`"/>
@@ -11,45 +13,43 @@
         <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
             <property name="mappers" value="com.xiaoyuan.tools.MapperConfig"/>
         </plugin>
-
+		<!--配置数据库连接地址、用户名、密码-->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://localhost:3306/yuanqu"
-                        userId="root"
-                        password="root">
+                        connectionURL="jdbc:mysql://rm-wz942s30t361ycw1ufo.mysql.rds.aliyuncs.com"
+                        userId="xiaoyuan123"
+                        password="xiaoyuan">
         </jdbcConnection>
 
         <!-- 对于生成的pojo所在包 -->
         <javaModelGenerator targetPackage="com.xiaoyuan.model" targetProject="src/main/java"/>
 
-		<!-- 对于生成的mapper所在目录 -->
-        <!-- <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"/> -->
-
 		<!-- 配置mapper对应的java映射 -->
-        <javaClientGenerator targetPackage="com.xiaoyuan.mapper" targetProject="src/main/java"
+        <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"/>
+
+		<!-- 对于生成的mapper所在目录 -->
+		<javaClientGenerator targetPackage="com.xiaoyuan.mapper" targetProject="src/main/java"
                              type="XMLMAPPER"/>
 
-
-		<table tableName="tl_erp_account"></table>
-		<table tableName="tl_erp_area"></table>
-		<table tableName="tl_erp_car"></table>
-		<table tableName="tl_erp_car_state"></table>
-		<table tableName="tl_erp_client"></table>
-		<table tableName="tl_erp_equipment"></table>
-		<table tableName="tl_erp_evaluation"></table>
-		<table tableName="tl_erp_gps"></table>
-		<table tableName="tl_erp_ingoods"></table>
-		<table tableName="tl_erp_order_car"></table>
-		<table tableName="tl_erp_pickgoods"></table>
-		<table tableName="tl_erp_price"></table>
-		<table tableName="tl_erp_rebate"></table>
-		<table tableName="tl_erp_supplier"></table>
-		<table tableName="tl_erp_unit"></table>
-		<table tableName="tl_erp_user"></table>
-		<table tableName="tl_erp_users"></table>
-		<table tableName="tl_erp_warehouse"></table>
-		
-		
-		
-		 
+        <!--配置要生成实体类代码的数据库名-->
+		<table tableName="tl_user_info" ></table>
+		<table tableName="tl_school_school" ></table>
+		<table tableName="tl_school_class"></table>
+		<table tableName="tl_school_students"></table>
+		<table tableName="tl_school_teachers"></table>
+		<table tableName="tl_school_parent"></table>
+		<table tableName="tl_school_staff"></table>
+		<table tableName="tl_school_activity"></table>
+		<table tableName="tl_school_advertisement"></table>
+		<table tableName="tl_school_amusement"></table>
+		<table tableName="tl_school_announcement"></table>
+		<table tableName="tl_school_attence"></table>
+		<table tableName="tl_school_band"></table>
+		<table tableName="tl_school_educational_administration"></table>
+		<table tableName="tl_school_order"></table>
+		<table tableName="tl_school_news"></table>
+		<table tableName="tl_school_homework"></table>
+		<table tableName="tl_school_homework_return"></table>
+		<table tableName="tl_school_school"></table>
+		<table tableName="tl_school_school"></table>
     </context>
 </generatorConfiguration>
