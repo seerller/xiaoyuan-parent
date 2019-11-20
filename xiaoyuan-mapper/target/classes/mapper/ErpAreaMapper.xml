@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xiaoyuan.mapper.ErpAreaMapper" >
+  <select id="lists" resultType="com.xiaoyuan.model.ErpArea">
+  	SELECT a.id,a.user_id,u.sales_area AS sales_area,u.user_name AS user_name,a.area_remark,a.area_audit_state,a.area_audit_date FROM tl_erp_area a,tl_erp_user u WHERE a.user_id=u.id
+  </select>
+  
+  <update id="updateByUserid">
+  	update tl_erp_area
+  	<set>
+  		<if test="area_remark !=null and area_remark != ''">
+  			area_remark=#{area_remark},
+  		</if>
+  		<if test="area_audit_state !=null and area_audit_state != ''">
+  			area_audit_state=#{area_audit_state},
+  		</if>
+  		<if test="updatetime != null and updatetime != ''">
+				updatetime= #{updatetime},
+		</if>
+  		<if test="area_audit_date !=null and area_audit_date != ''">
+  			area_audit_date=#{area_audit_date}
+  		</if>
+  		where user_id= #{user_id}
+  	</set>
+  </update>
+  <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+  insert into tl_erp_area(id,user_id,area_audit_date,area_audit_state,area_remark,createtime,updatetime,status_)
+  
+  values(#{id},#{user_id},#{area_audit_date},#{area_audit_state},#{area_remark},#{createtime},#{updatetime},#{status_})
+  
+  </insert>
+  
+  	<select id="get" resultType="com.xiaoyuan.model.ErpArea">
+		select area_audit_date,area_audit_state,area_remark from tl_erp_area where id = #{id}
+	</select>
+</mapper>

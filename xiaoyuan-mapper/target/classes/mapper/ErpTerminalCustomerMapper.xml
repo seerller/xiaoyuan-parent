@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xiaoyuan.mapper.ErpTerminalCustomerMapper">
+    <update id="updateServiceByPrimaryKey">
+		update tl_erp_terminal_customer
+		<set>
+			<trim suffixOverrides=",">
+				<if test="user_id != null">
+					user_id= #{user_id},
+				</if>
+				<if test="customer_company_name != null">
+					customer_company_name= #{customer_company_name},
+				</if>
+				<if test="customer_company_sn != null">
+					customer_company_sn= #{customer_company_sn},
+				</if>
+				<if test="customer_sales_area != null">
+					customer_sales_area= #{customer_sales_area},
+				</if>
+				<if test="customer_name != null">
+					customer_name= #{customer_name},
+				</if>
+				<if test="terminal_customer_address != null">
+					terminal_customer_address= #{terminal_customer_address},
+				</if>
+				<if test="createtime != null">
+					createtime= #{createtime},
+				</if>
+				<if test="updatetime != null">
+					updatetime= #{updatetime},
+				</if>
+				<if test="coordinate != null">
+					coordinate= #{coordinate},
+				</if>
+				<if test="price != null">
+					price= #{price},
+				</if>
+				<if test="customer_sn != null">
+					customer_sn= #{customer_sn},
+				</if>
+				<if test="province_id != null">
+					province_id= #{province_id},
+				</if>
+				<if test="city_id != null">
+					city_id= #{city_id},
+				</if>
+				<if test="area_id != null">
+					area_id= #{area_id},
+				</if>
+				<if test="stop != null">
+					stop= #{stop},
+				</if>
+			</trim>
+		</set>
+		where id = #{id}
+	</update>
+	<insert id="insertService">
+		insert into tl_erp_terminal_customer
+		<trim prefix="(" suffixOverrides="," suffix=")">
+			<if test="user_id != null">
+				user_id,
+			</if>
+			<if test="customer_company_name != null">
+				customer_company_name,
+			</if>
+			<if test="customer_company_sn != null">
+				customer_company_sn,
+			</if>
+			<if test="customer_sales_area != null">
+				customer_sales_area,
+			</if>
+			<if test="customer_name != null">
+				customer_name,
+			</if>
+			<if test="terminal_customer_address != null">
+				terminal_customer_address,
+			</if>
+			<if test="createtime != null">
+				createtime,
+			</if>
+			<if test="updatetime != null">
+				updatetime,
+			</if>
+			<if test="coordinate != null">
+				coordinate,
+			</if>
+			<if test="price != null">
+				price,
+			</if>
+			<if test="customer_sn != null">
+				customer_sn,
+			</if>
+			<if test="province_id != null">
+				province_id,
+			</if>
+			<if test="city_id != null">
+				city_id,
+			</if>
+			<if test="area_id != null">
+				area_id,
+			</if>
+			<if test="stop != null">
+				stop,
+			</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="user_id != null">
+				#{user_id},
+			</if>
+			<if test="customer_company_name != null">
+				#{customer_company_name},
+			</if>
+			<if test="customer_company_sn != null">
+				 #{customer_company_sn},
+			</if>
+			<if test="customer_sales_area != null">
+				#{customer_sales_area},
+			</if>
+			<if test="customer_name != null">
+				 #{customer_name},
+			</if>
+			<if test="terminal_customer_address != null">
+				 #{terminal_customer_address},
+			</if>
+			<if test="createtime != null">
+				 #{createtime},
+			</if>
+			<if test="updatetime != null">
+				#{updatetime},
+			</if>
+			<if test="coordinate != null">
+				#{coordinate},
+			</if>
+			<if test="price != null">
+				 #{price},
+			</if>
+			<if test="customer_sn != null">
+				 #{customer_sn},
+			</if>
+			<if test="province_id != null">
+				 #{province_id},
+			</if>
+			<if test="city_id != null">
+				#{city_id},
+			</if>
+			<if test="area_id != null">
+				#{area_id},
+			</if>
+			<if test="stop != null">
+				 #{stop},
+			</if>
+		</trim>
+	</insert>
+
+    <!-- 就是这个了，， -->
+    <!-- 可以在用户详细信息使用子查询查所有终端客户。。 -->
+    <select id="customer_names" resultType="java.lang.String">
+		SELECT
+		customer_name
+		FROM
+		tl_erp_terminal_customer
+		WHERE user_id = #{id}
+	</select>
+
+    <!--20190403 修改这个条件，不然没数据-->
+    <!--WHERE customer_company_name IS NOT
+        NULL-->
+    <select id="lists" resultType="com.xiaoyuan.model.ErpTerminalCustomer">
+        SELECT
+        *
+        FROM
+        tl_erp_terminal_customer
+        WHERE 1=1
+        <if test="user_id != null">
+            AND user_id = #{user_id}
+        </if>
+        <if test="status_ != null">
+            AND status_ = #{status_}
+        </if>
+        <if test="customer_company_name != null and customer_company_name!=''">
+            AND customer_company_name = #{customer_company_name}
+        </if>
+    </select>
+
+
+	<insert id="insert">
+		INSERT INTO tl_erp_terminal_customer (
+		user_id,
+		customer_company_name,
+		customer_company_sn,
+		customer_sales_area,
+		customer_name,
+		customer_description,
+		createtime,
+		terminal_customer_address
+		)
+		VALUES
+		(#{user_id},#{customer_company_name},#{customer_company_sn},#{customer_sales_area},
+		#{customer_name},#{customer_description},#{createtime},#{terminal_customer_address})
+	</insert>
+	<select id="selectBySearch" resultType="com.xiaoyuan.model.dto.ErpCustomerDto">
+		SELECT CUSTOMER.id,CUSTOMER.user_id,USERS.user_company_name AS customer_company_name,USERS.number AS customer_company_sn ,
+		CUSTOMER.customer_name,CUSTOMER.terminal_customer_address,CUSTOMER.coordinate,
+		CUSTOMER.price,CUSTOMER.customer_sn,CUSTOMER.province_id,CUSTOMER.city_id,CUSTOMER.area_id,
+		IFNULL(CUSTOMER.price,0.00) AS user_price,USERS.sales_area AS customer_sales_area,USERS.number AS number,
+		REGIONS.provinceTxt,REGIONS.cityTxt,REGIONS.areaTxt,FORMAT(CUSTOMER.price,2) as priceTxt,
+		DATE_FORMAT( CUSTOMER.createtime, "%Y-%m-%d %H:%i:%s" ) as createtime,
+		DATE_FORMAT( CUSTOMER.updatetime, "%Y-%m-%d %H:%i:%s" ) as updatetime
+		FROM tl_erp_terminal_customer as CUSTOMER
+		LEFT JOIN tl_erp_user AS USERS ON USERS.id = CUSTOMER.user_id
+		LEFT JOIN (
+		SELECT
+		CUSTOMER.id AS id,
+		MAX( CASE CUSTOMER.province_id WHEN REGION.id THEN REGION.title ELSE NULL END ) provinceTxt,
+		MAX( CASE CUSTOMER.city_id WHEN REGION.id THEN REGION.title ELSE NULL END ) cityTxt,
+		MAX( CASE CUSTOMER.area_id WHEN REGION.id THEN REGION.title ELSE NULL END ) areaTxt
+		FROM
+		tl_erp_terminal_customer AS CUSTOMER
+		LEFT JOIN tl_erp_region AS REGION ON REGION.id = CUSTOMER.province_id
+		OR REGION.id = CUSTOMER.city_id
+		OR REGION.id = CUSTOMER.area_id
+		GROUP BY
+		CUSTOMER.id ) AS REGIONS ON REGIONS.id = CUSTOMER.Id
+		WHERE 1 = 1
+		<if test="userId != null and userId > 0">
+			AND	CUSTOMER.user_id = #{userId}
+		</if>
+		<if test="customerId != null and customerId > 0">
+			AND	CUSTOMER.id = #{customerId}
+		</if>
+		<if test="stop != null">
+			<if test="stop == 1">
+				AND	CUSTOMER.stop is null
+			</if>
+		</if>
+		<if test="search != null and search != ''">
+			AND (
+			USERS.user_company_name 				LIKE concat( concat( '%', 	#{search} ),'%')
+			OR USERS.user_company_sn 				LIKE concat( concat( '%',	#{search} ),'%')
+			OR USERS.user_phone 					LIKE concat( concat( '%', 	#{search} ),'%')
+			OR USERS.real_name 						LIKE concat( concat( '%', 	#{search} ),'%')
+			OR USERS.sales_area 					LIKE concat( concat( '%', 	#{search} ),'%')
+			OR USERS.user_address 					LIKE concat( concat( '%', 	#{search} ),'%')
+			OR CUSTOMER.customer_name 				LIKE concat( concat( '%', 	#{search} ),'%')
+			OR CUSTOMER.terminal_customer_address 	LIKE concat( concat( '%', 	#{search} ),'%')
+			OR CUSTOMER.customer_sn 				LIKE concat( concat( '%', 	#{search} ),'%')
+			)
+		</if>
+		order by CUSTOMER.createtime DESC
+	</select>
+	<select id="countBySearch" resultType="java.lang.Integer">
+		SELECT count(CUSTOMER.id)
+		FROM tl_erp_terminal_customer as CUSTOMER
+		LEFT JOIN tl_erp_user AS USERS ON USERS.id = CUSTOMER.user_id
+		LEFT JOIN (
+		SELECT
+		CUSTOMER.id AS id,
+		MAX( CASE CUSTOMER.province_id WHEN REGION.id THEN REGION.title ELSE NULL END ) provinceTxt,
+		MAX( CASE CUSTOMER.city_id WHEN REGION.id THEN REGION.title ELSE NULL END ) cityTxt,
+		MAX( CASE CUSTOMER.area_id WHEN REGION.id THEN REGION.title ELSE NULL END ) areaTxt
+		FROM
+		tl_erp_terminal_customer AS CUSTOMER
+		LEFT JOIN tl_erp_region AS REGION ON REGION.id = CUSTOMER.province_id
+		OR REGION.id = CUSTOMER.city_id
+		OR REGION.id = CUSTOMER.area_id
+		GROUP BY
+		CUSTOMER.id ) AS REGIONS ON REGIONS.id = CUSTOMER.Id
+		WHERE 1 = 1
+		<if test="userId != null and userId > 0">
+			AND	CUSTOMER.user_id = #{userId}
+		</if>
+		<if test="customerId != null and customerId > 0">
+			AND	CUSTOMER.id = #{customerId}
+		</if>
+		<if test="stop != null">
+			<if test="stop == 1">
+				AND	CUSTOMER.stop is null
+			</if>
+		</if>
+		<if test="search != null and search != ''">
+			AND (
+			USERS.user_company_name 				LIKE concat( concat( '%', 	#{search} ),'%')
+			OR USERS.user_company_sn 				LIKE concat( concat( '%',	#{search} ),'%')
+			OR USERS.user_phone 					LIKE concat( concat( '%', 	#{search} ),'%')
+			OR USERS.real_name 						LIKE concat( concat( '%', 	#{search} ),'%')
+			OR USERS.sales_area 					LIKE concat( concat( '%', 	#{search} ),'%')
+			OR USERS.user_address 					LIKE concat( concat( '%', 	#{search} ),'%')
+			OR CUSTOMER.customer_name 				LIKE concat( concat( '%', 	#{search} ),'%')
+			OR CUSTOMER.terminal_customer_address 	LIKE concat( concat( '%', 	#{search} ),'%')
+			OR CUSTOMER.customer_sn 				LIKE concat( concat( '%', 	#{search} ),'%')
+			)
+		</if>
+	</select>
+</mapper>

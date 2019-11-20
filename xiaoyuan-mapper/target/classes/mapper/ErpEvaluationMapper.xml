@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xiaoyuan.mapper.ErpEvaluationMapper" >
+
+<insert id="insert" useGeneratedKeys="true" keyProperty="id">
+  insert into tl_erp_evaluation(id,supplier_id,evaluation_star,evaluation_company_cate,evaluation_enter,evaluation_date,
+  evaluation_audit,createtime,updatetime,status_,evaluation_company_name)
+  
+  values
+  (#{id},#{supplier_id},#{evaluation_star},#{evaluation_company_cate},#{evaluation_enter},
+  #{evaluation_date},#{evaluation_aduit},#{createtime},#{updatetime}, #{status_},#{evaluation_company_name})
+
+</insert>
+  
+</mapper>
