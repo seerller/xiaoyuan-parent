@@ -49,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/resources/generatorConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+            <state relative-caret-position="329">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -363,22 +363,22 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\车辆管理系统\20190331\yuanqu-service\src\main\java\com\yuanqu\service" />
+      <recent name="E:\project\车辆管理系统\20190331\yuanqu-mapper\src\main\resources\mapper" />
+      <recent name="E:\project\车辆管理系统\20190331\yuanqu-mapper\src\main\java\com\yuanqu\mapper" />
+      <recent name="E:\project\车辆管理系统\20190331\yuanqu-model\src\main\java\com\yuanqu\model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yuanqu.service" />
+      <recent name="com.yuanqu.model.search" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\project\车辆管理系统\20190331\yuanqu-model\src\main\java\com\yuanqu\tools" />
       <recent name="E:\project\车辆管理系统\20190331\yuanqu-mapper\src\main\resources\mapper" />
       <recent name="E:\project\车辆管理系统\20190331\yuanqu-webapi\src\main\resources" />
       <recent name="E:\project\车辆管理系统\20190331\yuanqu-webapi\src\main\java\com\yuanqu\controller" />
       <recent name="E:\project\车辆管理系统\20190331\yuanqu-webapi\src\main\java\com\yuanqu" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.yuanqu.service" />
-      <recent name="com.yuanqu.model.search" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\project\车辆管理系统\20190331\yuanqu-service\src\main\java\com\yuanqu\service" />
-      <recent name="E:\project\车辆管理系统\20190331\yuanqu-mapper\src\main\resources\mapper" />
-      <recent name="E:\project\车辆管理系统\20190331\yuanqu-mapper\src\main\java\com\yuanqu\mapper" />
-      <recent name="E:\project\车辆管理系统\20190331\yuanqu-model\src\main\java\com\yuanqu\model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -593,7 +593,7 @@
       <workItem from="1574147898622" duration="5457000" />
       <workItem from="1574155800861" duration="942000" />
       <workItem from="1574156840951" duration="2149000" />
-      <workItem from="1574215554520" duration="4941000" />
+      <workItem from="1574215554520" duration="8692000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis generator">
       <created>1574158041572</created>
@@ -616,11 +616,25 @@
       <option name="project" value="LOCAL" />
       <updated>1574219960756</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="mybatis generator">
+      <created>1574220685810</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574220685810</updated>
+    </task>
+    <task id="LOCAL-00005" summary="generatorConfig changes">
+      <created>1574222510488</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574222510488</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1141135000" />
+    <option name="totallyTimeSpent" value="1144886000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -633,9 +647,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4949495" visible="true" weight="0.3020231" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4949495" visible="true" weight="0.3020231" />
       <window_info id="Structure" order="1" sideWeight="0.5050505" side_tool="true" weight="0.24566475" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -656,7 +669,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007225" side_tool="true" weight="0.052704576" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32871014" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49927744" weight="0.32871014" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" sideWeight="0.49927744" visible="true" weight="0.32871014" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49205202" weight="0.06518724" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -664,9 +677,9 @@
       <window_info anchor="right" id="Maven" order="3" weight="0.26950866" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32875723" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32875723" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32875723" />
     </layout>
     <layout-to-restore>
@@ -711,7 +724,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="11" />
     <MESSAGE value="mybatis generator" />
-    <option name="LAST_COMMIT_MESSAGE" value="mybatis generator" />
+    <MESSAGE value="generatorConfig changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="generatorConfig changes" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -732,13 +746,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpGpsAlarmMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/text.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1053,6 +1060,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/main2.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaoyuan-mapper/0.0.1-SNAPSHOT/maven-metadata-local.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -1074,13 +1091,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/main2.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+        <state relative-caret-position="329">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
         </state>
       </provider>
     </entry>
