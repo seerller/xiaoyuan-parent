@@ -5,107 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82ec60da-668d-44fb-92dd-b3c9a9a877ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/APICateMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/APIMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpAccountMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpAreaMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpCarMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpCarOrderMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpCardMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpDeviceLogMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpDriverMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpEquipmentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpEvaluationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpGoodsMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpGpsAlarmMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpGpsMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpIngoodsMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpLoggerMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpOrdersMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpPickgoodsMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpPoundMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpPriceMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpRebateMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpRegionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpRoleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpSetManageMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpSupplierMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpTerminalCustomerMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpUnitMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpUserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpWareHouseMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/FirstApiMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/PermissionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/RoleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/UserRoleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/APICateMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/APIMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpAccountMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpAreaMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpCarMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpCarOrderMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpCardMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpDeviceLog.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpDriverMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpEquipmentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpEvaluationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpGoodsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpGpsAlarmMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpGpsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpIngoodsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpLogger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpLoggerMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpOrdersMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpPickgoodsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpPoundMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpPriceMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpRebateMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpRegionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpRoleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpSetManageMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpSupplierMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpTerminalCustomerMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpUnitMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ErpWareHouseMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/FirstApiMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/PermissionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/RoleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/UserRoleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/API.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/APICate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpArea.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpCar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpCarOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpCard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpDeviceGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpDeviceLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpDriver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpEquipment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpEvaluation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpGPS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpGoods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpGpsAlarm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpGpsDevice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpIngoods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpOrders.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpPickgoods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpPound.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpPrice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpRebate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpRegion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpRole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpSetManage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpSupplier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpTerminalCustomer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpUnit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpWareHouse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/FirstApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/mapper/ActivityMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/mapper/AdministrationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/mapper/AdvertisementMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/mapper/AmusementMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/mapper/AnnouncementMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/mapper/AttenceMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/mapper/BandMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/mapper/ClassMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/mapper/Homework_returnMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/mapper/NewsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/mapper/OrderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/mapper/ParentsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/mapper/SchoolMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/mapper/StaffMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/mapper/StudentsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/mapper/TeachersMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/mapper/homeworkMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/tools/GeneratorDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/tools/GeneratorDisplay.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/yuanqu-model/target/" />
@@ -146,11 +64,78 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/resources/generatorConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1160">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="860">
+              <caret line="43" column="67" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaoyuan/controller/BaseController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/tools/GeneratorDisplay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#456#464#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ActivityMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaoyuan/controller/TlErpAccountController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="18" column="51" selection-start-line="18" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaoyuan/controller/TlErpEntryDetailController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaoyuan/controller/TlErpEquipmentCopyController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/Homework_return.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -165,37 +150,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/Administration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-80">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/Advertisement.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1520">
               <caret line="95" selection-start-line="95" selection-end-line="95" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/mapper/ActivityMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/mapper/AdministrationMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -286,8 +244,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/yuanqu-service/src/main/java/com/yuanqu/service/PermissionSevice/PermissionService.java" />
-        <option value="$PROJECT_DIR$/yuanqu-mapper/src/main/java/com/yuanqu/mapper/PermissionMapper.java" />
         <option value="$PROJECT_DIR$/yuanqu-model/src/main/java/com/yuanqu/model/tree/TreeNode.java" />
         <option value="$PROJECT_DIR$/yuanqu-service/src/main/java/com/yuanqu/service/PermissionSevice/impl/PermissionServiceImpl.java" />
         <option value="$PROJECT_DIR$/yuanqu-model/src/main/java/com/yuanqu/tools/TreeUtil.java" />
@@ -337,6 +293,8 @@
         <option value="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/UserInfo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/xiaoyuan-model/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiaoyuan/controller/TlErpEquipmentCopyController.java" />
+        <option value="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/tools/GeneratorDisplay.java" />
       </list>
     </option>
   </component>
@@ -440,17 +398,6 @@
             <path>
               <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
               <item name="xiaoyuan-mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -503,6 +450,13 @@
             <path>
               <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaoyuan-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
               <item name="xiaoyuan-model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -543,7 +497,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xiaoyuan" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -595,7 +549,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model" />
+    <property name="last_opened_file_path" value="E:/project/King-parent" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -836,7 +790,7 @@
       <workItem from="1574155800861" duration="942000" />
       <workItem from="1574156840951" duration="2149000" />
       <workItem from="1574215554520" duration="9133000" />
-      <workItem from="1574226466537" duration="14053000" />
+      <workItem from="1574226466537" duration="15484000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis generator">
       <created>1574158041572</created>
@@ -908,11 +862,25 @@
       <option name="project" value="LOCAL" />
       <updated>1574243162119</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="model changes">
+      <created>1574243489888</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1574243489888</updated>
+    </task>
+    <task id="LOCAL-00012" summary="model changes">
+      <created>1574243641447</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1574243641447</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1159380000" />
+    <option name="totallyTimeSpent" value="1160811000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -925,6 +893,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4949495" visible="true" weight="0.2274678" />
       <window_info id="Structure" order="1" sideWeight="0.5050505" side_tool="true" weight="0.24566475" />
@@ -1066,66 +1035,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.0.RELEASE/spring-boot-2.0.0.RELEASE-sources.jar!/org/springframework/boot/web/servlet/support/SpringBootServletInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="176" column="39" selection-start-line="176" selection-start-column="39" selection-end-line="176" selection-end-column="39" />
-          <folding>
-            <element signature="e#7396#7397#0" expanded="true" />
-            <element signature="e#7417#7418#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/controller/ErpCarCateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="37" column="38" lean-forward="true" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/controller/ErpAccountController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2220">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/UserRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/UserRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpArea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/ErpCarOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -1371,13 +1280,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/ErpTerminalCustomerMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2">
@@ -1409,10 +1311,77 @@
     <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/resources/mapper/AdministrationMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/StaffMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/Homework_return.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1160">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="860">
+          <caret line="43" column="67" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaoyuan/controller/TlErpEntryDetailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaoyuan/controller/TlErpEquipmentCopyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaoyuan/controller/TlErpAccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="51" selection-start-line="18" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaoyuan/controller/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/tools/GeneratorDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#456#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ActivityMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
