@@ -27,7 +27,7 @@ spring:
     #密码
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://rm-wz942s30t361ycw1ufo.mysql.rds.aliyuncs.com
+    url: jdbc:mysql://rm-wz942s30t361ycw1ufo.mysql.rds.aliyuncs.com:3306/xiaoyuan
     username: xiaoyuan123
     password: xiaoyuan
     type: com.alibaba.druid.pool.DruidDataSource
@@ -48,6 +48,12 @@ spring:
     useGlobalDataSourceStat: true
 mybatis:
   mapper-locations: classpath*:/mapper/**Mapper.xml
+  typeAliasesPackage: com.jiafly.libra.entity
+  mapper:
+    plugin: tk.mybatis.mapper.generator.MapperPlugin
+    Mapper: tk.mybatis.mapper.common.Mapper
+    not-empty: false
+    identity: MYSQL
 logging:
   level:
     com:
