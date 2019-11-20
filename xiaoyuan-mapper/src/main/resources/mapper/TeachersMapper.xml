@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xiaoyuan.mapper.TeachersMapper" >
+  <resultMap id="BaseResultMap" type="com.xiaoyuan.model.Teachers" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="teacher_ID" property="teacherId" jdbcType="INTEGER" />
+    <result column="student_ID" property="studentId" jdbcType="INTEGER" />
+    <result column="teachername" property="teachername" jdbcType="VARCHAR" />
+    <result column="schoolname" property="schoolname" jdbcType="VARCHAR" />
+    <result column="course" property="course" jdbcType="VARCHAR" />
+    <result column="post" property="post" jdbcType="VARCHAR" />
+    <result column="teacher_mobilephone" property="teacherMobilephone" jdbcType="INTEGER" />
+    <result column="teacher_telephone" property="teacherTelephone" jdbcType="INTEGER" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="teacher_adress" property="teacherAdress" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>

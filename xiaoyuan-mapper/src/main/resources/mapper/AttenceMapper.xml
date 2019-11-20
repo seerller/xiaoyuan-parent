@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xiaoyuan.mapper.AttenceMapper" >
+  <resultMap id="BaseResultMap" type="com.xiaoyuan.model.Attence" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="attence_id" property="attenceId" jdbcType="INTEGER" />
+    <result column="student_ID" property="studentId" jdbcType="INTEGER" />
+    <result column="studentname" property="studentname" jdbcType="VARCHAR" />
+    <result column="status" property="status" jdbcType="VARCHAR" />
+    <result column="times" property="times" jdbcType="INTEGER" />
+    <result column="break" property="break" jdbcType="VARCHAR" />
+    <result column="review" property="review" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>

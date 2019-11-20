@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xiaoyuan.mapper.AnnouncementMapper" >
+  <resultMap id="BaseResultMap" type="com.xiaoyuan.model.Announcement" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="announcement_id" property="announcementId" jdbcType="INTEGER" />
+    <result column="school_ID" property="schoolId" jdbcType="INTEGER" />
+    <result column="title" property="title" jdbcType="VARCHAR" />
+    <result column="subtitle" property="subtitle" jdbcType="VARCHAR" />
+    <result column="content" property="content" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="pictuer" property="pictuer" jdbcType="LONGVARBINARY" />
+  </resultMap>
+</mapper>
