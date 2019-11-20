@@ -21,7 +21,7 @@
         </jdbcConnection>
 
         <!-- 对于生成的pojo所在包 -->
-        <javaModelGenerator targetPackage="com.xiaoyuan.model" targetProject="src/main/java"/>
+        <javaModelGenerator targetPackage="com.0iaoyuan.model" targetProject="src/main/java"/>
 
 		<!-- 配置mapper对应的java映射 -->
         <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"/>
@@ -31,7 +31,7 @@
                              type="XMLMAPPER"/>
 
         <!--配置要生成实体类代码的数据库名-->
-		<table tableName="tl_user_info" ></table>
+		<table tableName="tl_school_user_info" ></table>
 		<table tableName="tl_school_school" ></table>
 		<table tableName="tl_school_class"></table>
 		<table tableName="tl_school_students"></table>
