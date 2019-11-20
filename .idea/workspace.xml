@@ -5,371 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82ec60da-668d-44fb-92dd-b3c9a9a877ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/yuanqu_parent_jar/yuanqu-parent.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/BaseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpAccountController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpAreaController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpCarController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpCarOrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpCardController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpConfigController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpCustomerAreaController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpDeviceController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpDeviceGroupController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpDeviceLogController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpDriverController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpEntryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpEntryDetailController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpEquipmentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpEquipmentCopyController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpEvaluationController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpGoodsCategoryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpGoodsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpGpsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpInpriceController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpInventController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpInventDetailController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpInvoiceController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpLocation22Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpLocationController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpLoggerController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpMateCateController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpMateController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpMaterialController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpNewMateController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpOrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpOrderDetailController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpOrdersController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpOutcarController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpPermissionController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpPickgoodsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpPoundController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpPriceController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpPurchController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpPurchPlanController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpPurchPlandetailController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpPurchaseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpRebateController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpRechargeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpRegionController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpRoleController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpSaleController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpSellsaveController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpShopGoodsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpSnController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpStockController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpStoreController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpStoreEntryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpStoreMemberController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpStorePlanController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpStorePlandetailController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpStoreStockController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpSupplierController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpSupplyController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpTerminalCustomerController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpUnitController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpUseRegisterController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpUserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpUserRegisterController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpWareLocationController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpWarehouseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/APICateMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/APIMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpAccountMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpAreaMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpCarMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpCarOrderMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpCardMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpDeviceLogMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpDriverMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpEquipmentMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpEvaluationMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpGoodsMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpGpsAlarmMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpGpsMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpIngoodsMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpLoggerMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpOrdersMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpPickgoodsMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpPoundMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpPriceMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpRebateMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpRegionMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpRoleMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpSetManageMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpSupplierMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpTerminalCustomerMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpUnitMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpUserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/ErpWareHouseMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/FirstApiMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/PermissionMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/RoleMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/com/xiaoyuan/mapper/UserRoleMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/APICateMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/APIMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpAccountMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpAreaMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpCarMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpCarOrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpCardMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpDeviceLog.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpDriverMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpEquipmentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpEvaluationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpGoodsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpGpsAlarmMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpGpsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpIngoodsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpLogger.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpLoggerMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpOrdersMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpPickgoodsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpPoundMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpPriceMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpRebateMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpRegionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpSetManageMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpSupplierMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpTerminalCustomerMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpUnitMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/ErpWareHouseMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/FirstApiMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/PermissionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/RoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/classes/mapper/UserRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/API.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/APICate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpAccount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpArea.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpCar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpCarOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpCard.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpDeviceGroup.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpDeviceLog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpDriver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpEquipment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpEvaluation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpGPS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpGoods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpGpsAlarm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpGpsDevice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpIngoods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpLogger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpOrders.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpPickgoods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpPound.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpPrice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpRebate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpRegion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpRole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpSetManage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpSupplier.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpTerminalCustomer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpUnit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/ErpWareHouse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/FirstApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/Message.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/UserRole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/dto/ErpAccountCountTotalDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/dto/ErpAccountDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/dto/ErpCustomerDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/dto/ErpDriverDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/dto/ErpGpsAlarmDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/dto/ErpGpsDeviceDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/dto/ErpOrderAmountDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/dto/ErpPickOrderDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/dto/ErpPickgoodsDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/dto/ErpPickgoodsTotalDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/dto/ErpUserDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/dto/PermissionDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/dto/RoleDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/exception/LogicException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/permission/Permission.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/role/Role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/search/BaseSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/search/ErpAccountSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/search/ErpCardSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/search/ErpDriverSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/search/ErpGoodsSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/search/ErpGpsAlarmSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/search/ErpGpsDeviceSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/search/ErpPickGoodsSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/search/ErpPickGoodsTotalSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/search/ErpRegionSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/search/ErpSetManageSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/search/ErpTerminalCustomerSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/search/ErpUserSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/search/PermissionSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/search/RoleSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/search/UniqueSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/setManageEntity/CommonSetEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/setManageEntity/GpsSetEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/tree/PermissionTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/model/tree/TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/tools/BaiduLocationUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/tools/EncryptUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/tools/ExcelUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/tools/ExcelUtil2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/tools/FormatUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/tools/GeneratorDisplay.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/tools/HttpRequestUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/tools/MapperConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/tools/MessageBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/tools/PageBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/tools/PasswrodsUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/tools/PoiExcel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/tools/PoiWord.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/tools/Point.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/tools/TimeUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/com/xiaoyuan/tools/TreeUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/APIService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpAccountService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpAreaService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpCarOrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpCarService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpCardService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpDeviceLogService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpDriverService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpEquipmentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpEvaluationService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpGoodsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpGpsAlarmService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpGpsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpIngoodsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpLoggerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpOrdersService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpPickgoodsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpPoundService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpPriceService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpRebateService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpRegionService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpSetManageService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpSupplierService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpTerminalCustomerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpUnitService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpUserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpUsersService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpWareHouseService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/FirstApiService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IAPIService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpAccountService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpAreaService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpCarOrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpCarService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpCardService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpDeviceLogService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpDriverService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpEquipmentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpEvaluationService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpGoodsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpGpsAlarmService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpGpsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpIngoodsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpLoggerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpOrdersService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpPickgoodsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpPoundService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpPriceService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpRebateService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpRegionSerivce.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpRoleService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpSetManageService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpSupplierService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpTerminalCustomerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpUnitService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpUserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpUsersService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpWareHouseService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IFirstApiService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IMessageService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IUserRoleService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/MessageService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/PermissionSevice/PermissionService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/PermissionSevice/RoleService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/PermissionSevice/impl/PermissionServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/PermissionSevice/impl/RoleServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/UserRoleService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/application-local.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/application-text.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/SpringBootStartApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/config/CoreConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/config/MultithreadScheduleTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/config/RedisConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/config/ShiroConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/config/SwaggerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/APIController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/BaseService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/CommonController/BaseController$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/CommonController/BaseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/CommonController/SubLoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/CxfConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpAccountController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpAreaCateController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpAreaController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpCarCateController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpCarController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpCarOrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpCarStateController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpCardController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpClientController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpDateController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpDriverController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpEquipmentCateController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpEquipmentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpEvaluationController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpGPSController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpIngoodsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpLoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpPGoodsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpPickgoodsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpPriceController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpRebateController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpRegionController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpRegisterController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpSupplierCateController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpSupplierController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpTerminalCustomerController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpUnitController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpUserCateController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpUserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpUserOrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpUserRequestController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpWareHouseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ExcelController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/FirstApiController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/IBaseService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/MessageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/Publish.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/SubController/SubAdminController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/SubController/SubCarController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/SubController/SubCommonController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/SubController/SubUserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/UserRoleController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/WebController/WebAdminController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/WebController/WebExcelController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/WebController/WebGoodsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/WebController/WebGpsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/WebServiceController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/shiro/filter/LoginAuthenticationFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/shiro/realm/UserRealm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/shiro/session/ShiroSessionManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/text.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xiaoyuan-webapi/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/yuanqu-model/target/" />
@@ -413,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/resources/generatorConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            <state relative-caret-position="540">
+              <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -957,7 +593,7 @@
       <workItem from="1574147898622" duration="5457000" />
       <workItem from="1574155800861" duration="942000" />
       <workItem from="1574156840951" duration="2149000" />
-      <workItem from="1574215554520" duration="3942000" />
+      <workItem from="1574215554520" duration="4941000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis generator">
       <created>1574158041572</created>
@@ -973,11 +609,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574219339326</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mybatis generator">
+      <created>1574219960756</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574219960756</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1140136000" />
+    <option name="totallyTimeSpent" value="1141135000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1436,8 +1079,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        <state relative-caret-position="540">
+          <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
         </state>
       </provider>
     </entry>
