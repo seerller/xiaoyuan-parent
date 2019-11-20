@@ -15,22 +15,29 @@
         </plugin>
 		<!--配置数据库连接地址、用户名、密码-->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://rm-wz942s30t361ycw1ufo.mysql.rds.aliyuncs.com"
+                        connectionURL="jdbc:mysql://rm-wz942s30t361ycw1ufo.mysql.rds.aliyuncs.com?useUnicode=true"
                         userId="xiaoyuan123"
                         password="xiaoyuan">
         </jdbcConnection>
 
         <!-- 对于生成的pojo所在包 -->
-        <javaModelGenerator targetPackage="com.xiaoyuan.model" targetProject="src/main/java"/>
+        <javaModelGenerator targetPackage="com.xiaoyuan.model" targetProject="src/main/java">
+		<property name="enableSubPackages" value="true"/>
+		<property name="trimStrings" value="true"/>
+	    </javaModelGenerator>
 
 		<!-- 配置mapper对应的java映射 -->
-        <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"/>
+        <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources">
+		<property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
 
 		<!-- 对于生成的mapper所在目录 -->
 		<javaClientGenerator targetPackage="com.xiaoyuan.mapper" targetProject="src/main/java"
-                             type="XMLMAPPER"/>
+                             type="XMLMAPPER">
+		<property name="enableSubPackages" value="true"/>
+		</javaClientGenerator>
 
-        <!--配置要生成实体类代码的数据库名-->
+		<!--配置要生成实体类代码的数据库名-->
 		<table tableName="tl_user_info" ></table>
 		<table tableName="tl_school_school" ></table>
 		<table tableName="tl_school_class"></table>

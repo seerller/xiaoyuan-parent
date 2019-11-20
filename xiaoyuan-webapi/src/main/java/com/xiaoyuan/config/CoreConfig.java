@@ -16,3 +16,4 @@ public class CoreConfig extends WebMvcConfigurerAdapter {
                 .maxAge(3600);
     }
 }
+
