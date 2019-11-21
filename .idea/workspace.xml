@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="82ec60da-668d-44fb-92dd-b3c9a9a877ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/shiro/realm/UserRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/shiro/realm/UserRealm.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/yuanqu-model/target/" />
@@ -50,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/UserInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+            <state relative-caret-position="363">
+              <caret line="60" column="25" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#522#523#0" expanded="true" />
@@ -82,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/shiro/realm/UserRealm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+            <state relative-caret-position="469">
+              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -246,7 +245,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
         <option value="$PROJECT_DIR$/xiaoyuan-webapi/src/main/resources/application-text.yml" />
         <option value="$PROJECT_DIR$/xiaoyuan-webapi/src/main/resources/application-local.yml" />
-        <option value="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/UserInfo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/xiaoyuan-model/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaoyuan/controller/TlErpEquipmentCopyController.java" />
@@ -254,6 +252,7 @@
         <option value="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/AttenceMapper.xml" />
         <option value="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/Attence.java" />
         <option value="$PROJECT_DIR$/xiaoyuan-model/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/UserInfo.java" />
         <option value="$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/shiro/realm/UserRealm.java" />
       </list>
     </option>
@@ -347,8 +346,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -451,16 +448,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xiaoyuan" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -480,15 +467,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -590,6 +568,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -847,7 +827,8 @@
       <workItem from="1574156840951" duration="2149000" />
       <workItem from="1574215554520" duration="9133000" />
       <workItem from="1574226466537" duration="16193000" />
-      <workItem from="1574298441674" duration="6158000" />
+      <workItem from="1574298441674" duration="7053000" />
+      <workItem from="1574313152993" duration="732000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis generator">
       <created>1574158041572</created>
@@ -954,11 +935,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574306189674</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="model changes">
+      <created>1574306828940</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1574306828940</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1167678000" />
+    <option name="totallyTimeSpent" value="1169305000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -970,10 +958,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4949495" visible="true" weight="0.2306867" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4949495" visible="true" weight="0.23390558" />
       <window_info id="Structure" order="1" sideWeight="0.5050505" side_tool="true" weight="0.24566475" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -983,19 +971,19 @@
       <window_info id="Web" order="7" sideWeight="0.5050505" side_tool="true" weight="0.24566475" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293011" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839056" visible="true" weight="0.045504995" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839056" weight="0.32741398" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49641833" weight="0.09153953" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.120976694" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32741398" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32852387" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32963374" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50160944" side_tool="true" weight="0.22197558" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32852387" />
       <window_info anchor="bottom" id="Database Changes" order="12" weight="0.32963374" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49927744" weight="0.2552719" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49205202" weight="0.31964484" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49927744" weight="0.3307436" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49205202" weight="0.32963374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1372,27 +1360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/config/ShiroConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/shiro/filter/LoginAuthenticationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/shiro/session/ShiroSessionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/UserInfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1410,10 +1377,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/shiro/session/ShiroSessionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/shiro/filter/LoginAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/config/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        <state relative-caret-position="363">
+          <caret line="60" column="25" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#522#523#0" expanded="true" />
@@ -1442,8 +1430,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/shiro/realm/UserRealm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        <state relative-caret-position="469">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
