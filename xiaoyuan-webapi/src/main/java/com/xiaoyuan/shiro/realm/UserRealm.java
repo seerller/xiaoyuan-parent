@@ -1,7 +1,7 @@
 package com.xiaoyuan.shiro.realm;
 
 
-import com.xiaoyuan.model.ErpUser;
+import com.xiaoyuan.model.UserInfo;
 import com.xiaoyuan.model.search.ErpUserSearch;
 import com.xiaoyuan.service.IErpUserService;
 import com.xiaoyuan.tools.PasswrodsUtil;

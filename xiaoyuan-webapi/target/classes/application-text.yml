@@ -28,7 +28,7 @@ spring:
   datasource:
     datasource:
       driver-class-name: com.mysql.jdbc.Driver
-      url: jdbc:mysql://rm-wz942s30t361ycw1ufo.mysql.rds.aliyuncs.com
+      url: jdbc:mysql://rm-wz942s30t361ycw1ufo.mysql.rds.aliyuncs.com:3306/xiaoyuan
       username: xiaoyuan123
       password: xiaoyuan
       type: com.alibaba.druid.pool.DruidDataSource
