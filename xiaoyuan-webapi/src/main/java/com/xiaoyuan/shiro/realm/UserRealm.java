@@ -45,7 +45,7 @@ public class UserRealm extends AuthorizingRealm {
         //根据令牌获取用户名和密码。
         String userId = (String) token.getPrincipal();
         String password = new String((char[]) token.getCredentials());
-        UserInfo result = userId.login(userId);
+        UserInfo result = userId.equals(userId);
         if(null==result){
             log.info(userId+"账户不存在");
           throw new UnknownAccountException();
