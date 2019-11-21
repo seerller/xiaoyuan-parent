@@ -43,27 +43,25 @@ public class UserRealm extends AuthorizingRealm {
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
         //根据令牌获取用户名和密码。
-        String username = (String) token.getPrincipal();
+        String userId = (String) token.getPrincipal();
         String password = new String((char[]) token.getCredentials());
-        ErpUser result = userService.login(username);
+        UserInfo result = userService.login(userId);
         if(null==result){
-            log.info(username+"账户不存在");
+            log.info(userId+"账户不存在");
           throw new UnknownAccountException();
         }
         //判断密码是否正确
-        if (!PasswrodsUtil.oldOrNewIsEquals(result.getPassword_(),password)) {
+        if (!PasswrodsUtil.oldOrNewIsEquals(result.getPassword(),password)) {
             log.info("密码不正确");
             throw new IncorrectCredentialsException();
-        }else if(result.getStop()!=null&&result.getStop() == 1){
+        }else if(result.getStatus()!=null&&result.getStatus() == "禁用"){
             log.info("账户已冻结");
             throw new LockedAccountException();
-        }else if(result.getAudit() <= 0){
-            log.info("账户已冻结");
-            throw new LockedAccountException();
+
         }
         //将返回的账户密码清除后存入session中
         Session session = SecurityUtils.getSubject().getSession();
         session.setAttribute("user",userService.selectFiistBySearch(new ErpUserSearch().setId(result.getId())));
-        return new SimpleAuthenticationInfo(username, password, getName());
+        return new SimpleAuthenticationInfo(userId, password, getName());
     }
 }
