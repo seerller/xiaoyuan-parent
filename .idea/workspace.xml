@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82ec60da-668d-44fb-92dd-b3c9a9a877ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/shiro/realm/UserRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/shiro/realm/UserRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/shiro/session/ShiroSessionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/shiro/session/ShiroSessionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaoyuan-model/src/main/resources/generatorConfig.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/yuanqu-model/target/" />
@@ -49,11 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/resources/generatorConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+            <state relative-caret-position="525">
+              <caret line="34" column="46" lean-forward="true" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -76,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/config/CoreConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -217,11 +214,11 @@
         <option value="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/tools/GeneratorDisplay.java" />
         <option value="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/AttenceMapper.xml" />
         <option value="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/Attence.java" />
-        <option value="$PROJECT_DIR$/xiaoyuan-model/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/UserInfo.java" />
         <option value="$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/shiro/realm/UserRealm.java" />
         <option value="$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/config/RedisConfig.java" />
         <option value="$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/shiro/session/ShiroSessionManager.java" />
+        <option value="$PROJECT_DIR$/xiaoyuan-model/src/main/resources/generatorConfig.xml" />
       </list>
     </option>
   </component>
@@ -324,6 +321,58 @@
             <path>
               <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaoyuan-mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaoyuan-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaoyuan-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaoyuan-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaoyuan-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaoyuan-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaoyuan-mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
               <item name="xiaoyuan-model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -346,6 +395,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaoyuan-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaoyuan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaoyuan-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaoyuan" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -394,59 +462,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xiaoyuan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-webapi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-webapi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-webapi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-webapi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="realm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-webapi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="session" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -720,7 +735,7 @@
       <workItem from="1574215554520" duration="9133000" />
       <workItem from="1574226466537" duration="16193000" />
       <workItem from="1574298441674" duration="7053000" />
-      <workItem from="1574313152993" duration="10075000" />
+      <workItem from="1574313152993" duration="11066000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis generator">
       <created>1574158041572</created>
@@ -841,11 +856,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574316068885</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="model changes">
+      <created>1574329214513</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1574329214513</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1178648000" />
+    <option name="totallyTimeSpent" value="1179639000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -858,7 +880,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4949495" visible="true" weight="0.23390558" />
       <window_info id="Structure" order="1" sideWeight="0.5050505" side_tool="true" weight="0.24566475" />
@@ -870,7 +891,7 @@
       <window_info id="Web" order="7" sideWeight="0.5050505" side_tool="true" weight="0.24566475" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293011" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839056" weight="0.32741398" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839056" weight="0.32852387" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49641833" weight="0.09153953" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1363,13 +1384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaoyuan/controller/TlErpAccountController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1387,7 +1401,14 @@
     <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/config/CoreConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="34" column="46" lean-forward="true" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
         </state>
       </provider>
     </entry>
