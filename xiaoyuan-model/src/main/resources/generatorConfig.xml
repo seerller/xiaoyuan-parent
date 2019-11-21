@@ -20,25 +20,25 @@
                         password="xiaoyuan">
         </jdbcConnection>
 
-        <!-- 对于生成的pojo所在包 -->
+        <!-- 对于生成的pojo(实体类)所在包 -->
         <javaModelGenerator targetPackage="com.xiaoyuan.model" targetProject="src/main/java">
 		<property name="enableSubPackages" value="true"/>
 		<property name="trimStrings" value="true"/>
 	    </javaModelGenerator>
 
-		<!-- 配置mapper对应的java映射 -->
+		<!-- 配置mapper对应的java映射(mybatis xml文件) -->
         <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources">
 		<property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>
 
-		<!-- 对于生成的mapper所在目录 -->
+		<!-- 对于生成的mapper(接口)所在目录 -->
 		<javaClientGenerator targetPackage="com.xiaoyuan.mapper" targetProject="src/main/java"
                              type="XMLMAPPER">
 		<property name="enableSubPackages" value="true"/>
 		</javaClientGenerator>
 
 		<!--配置要生成实体类代码的数据库名-->
-		<table tableName="tl_school_user_info" domainObjectName="UserInfo" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+		<table tableName="tl_school_user_notes" domainObjectName="UserNotes" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
 
     </context>
 </generatorConfiguration>
