@@ -18,7 +18,8 @@ public class Attence {
 
     private Integer times;
 
-    private String break;
+    @Column(name = "break")
+    private String leave;
 
     private String review;
 
@@ -96,17 +97,17 @@ public class Attence {
     }
 
     /**
-     * @return break
+     * @return leave
      */
-    public String getBreak() {
-        return break;
+    public String getLeave() {
+        return leave;
     }
 
     /**
-     * @param break
+     * @param leave
      */
-    public void setBreak(String break) {
-        this.break = break == null ? null : break.trim();
+    public void setLeave(String leave) {
+        this.leave = leave == null ? null : leave.trim();
     }
 
     /**

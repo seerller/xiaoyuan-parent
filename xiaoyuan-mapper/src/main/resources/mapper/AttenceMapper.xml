@@ -10,7 +10,7 @@
     <result column="studentname" property="studentname" jdbcType="VARCHAR" />
     <result column="status" property="status" jdbcType="VARCHAR" />
     <result column="times" property="times" jdbcType="INTEGER" />
-    <result column="break" property="break" jdbcType="VARCHAR" />
+    <result column="break" property="leave" jdbcType="VARCHAR" />
     <result column="review" property="review" jdbcType="VARCHAR" />
     <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
   </resultMap>
