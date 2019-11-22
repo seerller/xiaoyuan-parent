@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xiaoyuan.mapper.SchoolMapper" >
+  <resultMap id="BaseResultMap" type="com.xiaoyuan.model.School" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="school_ID" property="schoolId" jdbcType="INTEGER" />
+    <result column="schoolname" property="schoolname" jdbcType="VARCHAR" />
+    <result column="addTime" property="addtime" jdbcType="TIMESTAMP" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="adress" property="adress" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>

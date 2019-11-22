@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xiaoyuan.mapper.ParentsMapper" >
+  <resultMap id="BaseResultMap" type="com.xiaoyuan.model.Parents" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="parent_id" property="parentId" jdbcType="INTEGER" />
+    <result column="student_ID" property="studentId" jdbcType="INTEGER" />
+    <result column="parentname" property="parentname" jdbcType="VARCHAR" />
+    <result column="sex" property="sex" jdbcType="VARCHAR" />
+    <result column="profession" property="profession" jdbcType="VARCHAR" />
+    <result column="income" property="income" jdbcType="INTEGER" />
+    <result column="age" property="age" jdbcType="INTEGER" />
+    <result column="taglib" property="taglib" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="adress" property="adress" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>

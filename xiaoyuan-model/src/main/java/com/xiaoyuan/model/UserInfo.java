@@ -6,13 +6,13 @@ import javax.persistence.*;
 @Table(name = "tl_school_user_info")
 public class UserInfo {
     @Id
-    private Integer id;
+    @Column(name = "user_id")
+    private Integer userId;
 
     /**
      * 用户名
      */
-    @Column(name = "user_id")
-    private String userId;
+    private String username;
 
     /**
      * 密码
@@ -22,7 +22,7 @@ public class UserInfo {
     /**
      * 状态
      */
-    private String status;
+    private Integer status;
 
     /**
      * 时间戳
@@ -31,35 +31,35 @@ public class UserInfo {
     private Date createTime;
 
     /**
-     * @return id
+     * @return user_id
      */
-    public Integer getId() {
-        return id;
+    public Integer getUserId() {
+        return userId;
     }
 
     /**
-     * @param id
+     * @param userId
      */
-    public void setId(Integer id) {
-        this.id = id;
+    public void setUserId(Integer userId) {
+        this.userId = userId;
     }
 
     /**
      * 获取用户名
      *
-     * @return user_id - 用户名
+     * @return username - 用户名
      */
-    public String getUserId() {
-        return userId;
+    public String getUsername() {
+        return username;
     }
 
     /**
      * 设置用户名
      *
-     * @param userId 用户名
+     * @param username 用户名
      */
-    public void setUserId(String userId) {
-        this.userId = userId == null ? null : userId.trim();
+    public void setUsername(String username) {
+        this.username = username == null ? null : username.trim();
     }
 
     /**
@@ -85,7 +85,7 @@ public class UserInfo {
      *
      * @return status - 状态
      */
-    public String getStatus() {
+    public Integer getStatus() {
         return status;
     }
 
@@ -94,8 +94,8 @@ public class UserInfo {
      *
      * @param status 状态
      */
-    public void setStatus(String status) {
-        this.status = status == null ? null : status.trim();
+    public void setStatus(Integer status) {
+        this.status = status;
     }
 
     /**

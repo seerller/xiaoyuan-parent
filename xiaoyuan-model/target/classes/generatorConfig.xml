@@ -20,42 +20,25 @@
                         password="xiaoyuan">
         </jdbcConnection>
 
-        <!-- 对于生成的pojo所在包 -->
+        <!-- 对于生成的pojo(实体类)所在包 -->
         <javaModelGenerator targetPackage="com.xiaoyuan.model" targetProject="src/main/java">
 		<property name="enableSubPackages" value="true"/>
 		<property name="trimStrings" value="true"/>
 	    </javaModelGenerator>
 
-		<!-- 配置mapper对应的java映射 -->
+		<!-- 配置mapper对应的java映射(mybatis xml文件) -->
         <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources">
 		<property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>
 
-		<!-- 对于生成的mapper所在目录 -->
+		<!-- 对于生成的mapper(接口)所在目录 -->
 		<javaClientGenerator targetPackage="com.xiaoyuan.mapper" targetProject="src/main/java"
                              type="XMLMAPPER">
 		<property name="enableSubPackages" value="true"/>
 		</javaClientGenerator>
 
 		<!--配置要生成实体类代码的数据库名-->
-		<table tableName="tl_user_info" domainObjectName="UserInfo" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
-		<table tableName="tl_school_school" domainObjectName="School" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
-		<table tableName="tl_school_class" domainObjectName="Class" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
-		<table tableName="tl_school_students" domainObjectName="Students" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
-		<table tableName="tl_school_teachers" domainObjectName="Teachers" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
-		<table tableName="tl_school_parent" domainObjectName="Parents" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
-		<table tableName="tl_school_staff" domainObjectName="Staff" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
-		<table tableName="tl_school_activity" domainObjectName="Activity" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
-		<table tableName="tl_school_advertisement" domainObjectName="Advertisement" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
-		<table tableName="tl_school_amusement" domainObjectName="Amusement" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
-		<table tableName="tl_school_announcement" domainObjectName="Announcement" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
-		<table tableName="tl_school_attence" domainObjectName="Attence" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
-		<table tableName="tl_school_band" domainObjectName="Band" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
-		<table tableName="tl_school_educational_administration" domainObjectName="Administration" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
-		<table tableName="tl_school_order" domainObjectName="Order" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
-		<table tableName="tl_school_news" domainObjectName="News" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
-		<table tableName="tl_school_homework" domainObjectName="homework" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
-		<table tableName="tl_school_homework_return" domainObjectName="Homework_return" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+		<table tableName="tl_school_user_notes" domainObjectName="UserNotes" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
 
     </context>
 </generatorConfiguration>

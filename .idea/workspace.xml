@@ -1,10 +1,223 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82ec60da-668d-44fb-92dd-b3c9a9a877ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="4be71c2e-3172-46c1-b68e-156da1a08f7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/xiaoyuan-parent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_Integration_4_0_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/BaseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpAccountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpAreaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpCarController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpCarOrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpCardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpConfigController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpCustomerAreaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpDeviceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpDeviceGroupController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpDeviceLogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpDriverController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpEntryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpEntryDetailController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpEquipmentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpEquipmentCopyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpEvaluationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpGoodsCategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpGoodsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpGpsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpInpriceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpInventController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpInventDetailController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpInvoiceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpLocation22Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpLocationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpLoggerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpMateCateController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpMateController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpMaterialController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpNewMateController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpOrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpOrderDetailController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpOrdersController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpOutcarController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpPermissionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpPickgoodsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpPoundController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpPriceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpPurchController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpPurchPlanController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpPurchPlandetailController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpPurchaseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpRebateController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpRechargeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpRegionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpRoleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpSaleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpSellsaveController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpShopGoodsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpSnController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpStockController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpStoreController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpStoreEntryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpStoreMemberController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpStorePlanController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpStorePlandetailController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpStoreStockController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpSupplierController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpSupplyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpTerminalCustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpUnitController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpUseRegisterController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpUserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpUserRegisterController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpWareLocationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiaoyuan/controller/TlErpWarehouseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaoyuan-mapper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/UserInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaoyuan-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/tools/MapperConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/tools/MapperConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaoyuan-model/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/target/classes/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaoyuan-model/target/classes/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/APIService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpAccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpAreaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpCarOrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpCarService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpCardService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpDeviceLogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpDriverService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpEquipmentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpEvaluationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpGoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpGpsAlarmService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpGpsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpIngoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpLoggerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpOrdersService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpPickgoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpPoundService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpPriceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpRebateService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpRegionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpSetManageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpSupplierService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpTerminalCustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpUnitService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpUsersService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/ErpWareHouseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/FirstApiService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IAPIService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpAccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpAreaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpCarOrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpCarService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpCardService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpDeviceLogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpDriverService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpEquipmentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpEvaluationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpGoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpGpsAlarmService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpGpsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpIngoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpLoggerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpOrdersService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpPickgoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpPoundService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpPriceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpRebateService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpRegionSerivce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpSetManageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpSupplierService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpTerminalCustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpUnitService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpUsersService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IErpWareHouseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IFirstApiService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IMessageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/IUserRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/MessageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/PermissionSevice/PermissionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/PermissionSevice/RoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/PermissionSevice/impl/PermissionServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/PermissionSevice/impl/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-service/target/classes/com/xiaoyuan/service/UserRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaoyuan-webapi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/SpringBootStartApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/config/CoreConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/config/MultithreadScheduleTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/config/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/config/ShiroConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/APIController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/BaseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/CommonController/BaseController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/CommonController/BaseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/CommonController/SubLoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/CxfConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpAccountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpAreaCateController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpAreaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpCarCateController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpCarController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpCarOrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpCarStateController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpCardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpClientController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpDateController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpDriverController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpEquipmentCateController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpEquipmentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpEvaluationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpGPSController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpIngoodsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpLoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpPGoodsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpPickgoodsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpPriceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpRebateController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpRegionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpRegisterController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpSupplierCateController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpSupplierController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpTerminalCustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpUnitController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpUserCateController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpUserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpUserOrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpUserRequestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ErpWareHouseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/ExcelController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/FirstApiController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/IBaseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/MessageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/Publish.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/SubController/SubAdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/SubController/SubCarController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/SubController/SubCommonController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/SubController/SubUserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/UserRoleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/WebController/WebAdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/WebController/WebExcelController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/WebController/WebGoodsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/WebController/WebGpsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/controller/WebServiceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/shiro/filter/LoginAuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/shiro/realm/UserRealm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/shiro/session/ShiroSessionManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaoyuan-webapi/target/classes/com/xiaoyuan/text.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,134 +225,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="20190331" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>getCode</find>
-      <find>余额不足,</find>
-      <find>user_price</find>
-      <find>userPirce</find>
-      <find>user_company_sn</find>
-      <find>修改密码</find>
-      <find>selectO</find>
-      <find>init</find>
-      <find>updateUser</find>
-      <find>canc</find>
-      <find>account_price_old</find>
-      <find>accountDetail</find>
-      <find>pickgoodsIn</find>
-      <find>selectBys</find>
-      <find>下单操作扣除</find>
-      <find>取消</find>
-      <find>pass</find>
-      <find>注册</find>
-      <find>goods</find>
-      <find>DRIVER_USER.user_phone</find>
-      <find>null!=search and search != ''</find>
-      <find>goodsName</find>
-      <find>isShow</find>
-      <find>findPermissionByPId</find>
-      <find>goods_name</find>
-      <find>selectOrderBySearch</find>
-      <find>v</find>
-      <find>children</find>
-      <find>rolePermission</find>
-      <find>txt</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>yuanqu</replace>
-      <replace>model.</replace>
-      <replace>ErpAccountTotalSearch</replace>
-      <replace>key_name</replace>
-      <replace>;</replace>
-      <replace>suffixOverrides=&quot;,&quot;</replace>
-      <replace>suffix=&quot;)&quot;</replace>
-      <replace>resultByUserCate</replace>
-      <replace />
-    </replaceStrings>
-    <dirStrings>
-      <dir>E:\project\车辆管理系统\20190331\yuanqu-model</dir>
-      <dir>E:\project\车辆管理系统\20190331\yuanqu-webapi\src</dir>
-      <dir>E:\project\车辆管理系统\20190331</dir>
-      <dir>E:\project\车辆管理系统\20190331\yuanqu-webapi</dir>
-      <dir>E:\project\车辆管理系统\20190331\yuanqu-webapi\src\main\java\com\yuanqu\controller\SubRequest</dir>
-      <dir>E:\project\车辆管理系统\20190331\yuanqu-model\src\main\java\com\yuanqu\model\search</dir>
-      <dir>E:\project\车辆管理系统\20190331\yuanqu-model\src\main\java\com\yuanqu\model\dto</dir>
-      <dir>E:\project\车辆管理系统\20190331\yuanqu-model\src\main\java\com\yuanqu\model</dir>
-      <dir>E:\project\车辆管理系统\20190331\yuanqu-webapi\src\main\java\com\yuanqu\controller\WebController</dir>
-      <dir>E:\project\车辆管理系统\20190331\yuanqu-webapi\src\main\java\com\yuanqu</dir>
-      <dir>E:\project\车辆管理系统\20190331\yuanqu-mapper</dir>
-      <dir>E:\project\车辆管理系统\20190331\yuanqu-mapper\src\main\resources\mapper</dir>
-      <dir>E:\project\车辆管理系统\20190331\yuanqu-webapi\src\main\java\com\yuanqu\controller</dir>
-      <dir>E:\project\车辆管理系统\20190331\yuanqu-webapi\src\main\java\com\yuanqu\controller\SubController</dir>
-      <dir>E:\xiaoyuan-project\yuanqu-parent\yuanqu-mapper</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="PATH_TO_GIT" value="D:\Git\bin\git.exe" />
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="E:\project\common\maven\localRepository" />
-        <option name="userSettingsFile" value="E:\project\common\maven\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
-        <option name="lookForNested" value="true" />
-        <option name="vmOptionsForImporter" value="-Xmx768m" />
+        <option name="jdkForImporter" value="1.8" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1TxGHkn8NaS1iCyySpIOqV4PZ4s" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1Txpz4hhALSV9r6wJC21YahkizF" />
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -150,36 +248,10 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.3226103" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.xiaoyuan.mapper" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\project\车辆管理系统\20190331\yuanqu-model\src\main\java\com\yuanqu\tools" />
-      <recent name="E:\project\车辆管理系统\20190331\yuanqu-mapper\src\main\resources\mapper" />
-      <recent name="E:\project\车辆管理系统\20190331\yuanqu-webapi\src\main\resources" />
-      <recent name="E:\project\车辆管理系统\20190331\yuanqu-webapi\src\main\java\com\yuanqu\controller" />
-      <recent name="E:\project\车辆管理系统\20190331\yuanqu-webapi\src\main\java\com\yuanqu" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.yuanqu.service" />
-      <recent name="com.yuanqu.model.search" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\xiaoyuan-project\xiaoyuan-parent\xiaoyuan-mapper\src\main\resources\mapper" />
-      <recent name="E:\project\车辆管理系统\20190331\yuanqu-service\src\main\java\com\yuanqu\service" />
-      <recent name="E:\project\车辆管理系统\20190331\yuanqu-mapper\src\main\resources\mapper" />
-      <recent name="E:\project\车辆管理系统\20190331\yuanqu-mapper\src\main\java\com\yuanqu\mapper" />
-      <recent name="E:\project\车辆管理系统\20190331\yuanqu-model\src\main\java\com\yuanqu\model" />
-    </key>
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -193,8 +265,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.generator">
-    <configuration name="generator" type="MavenRunConfiguration" factoryName="Maven">
+  <component name="RunManager">
+    <configuration name="genertor" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -220,323 +292,21 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="SpringBootStartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="xiaoyuan-webapi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiaoyuan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaoyuan.SpringBootStartApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Maven.generator" />
-      <item itemvalue="Spring Boot.SpringBootStartApplication" />
-    </list>
   </component>
-  <component name="SvnConfiguration" cleanupOnStartRun="true">
-    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
-    <supportedVersion>125</supportedVersion>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="82ec60da-668d-44fb-92dd-b3c9a9a877ba" name="Default Changelist" comment="" />
-      <created>1559636183538</created>
+      <changelist id="4be71c2e-3172-46c1-b68e-156da1a08f7c" name="Default Changelist" comment="" />
+      <created>1574411859419</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1559636183538</updated>
-      <workItem from="1559636185003" duration="8240000" />
-      <workItem from="1559696738570" duration="8823000" />
-      <workItem from="1560247515211" duration="3389000" />
-      <workItem from="1560302329827" duration="9105000" />
-      <workItem from="1560321637239" duration="2875000" />
-      <workItem from="1560325142775" duration="796000" />
-      <workItem from="1560326484112" duration="507000" />
-      <workItem from="1560392445129" duration="5161000" />
-      <workItem from="1560407482648" duration="199000" />
-      <workItem from="1560408959702" duration="1644000" />
-      <workItem from="1560411131597" duration="983000" />
-      <workItem from="1560414651130" duration="964000" />
-      <workItem from="1560415854936" duration="4684000" />
-      <workItem from="1560475344011" duration="86000" />
-      <workItem from="1560478610823" duration="8415000" />
-      <workItem from="1560491776872" duration="1213000" />
-      <workItem from="1560497570668" duration="3131000" />
-      <workItem from="1560501628176" duration="10686000" />
-      <workItem from="1560561354751" duration="203000" />
-      <workItem from="1560579921657" duration="2207000" />
-      <workItem from="1560586139461" duration="179000" />
-      <workItem from="1560586877856" duration="209000" />
-      <workItem from="1560587568239" duration="709000" />
-      <workItem from="1560589350151" duration="1391000" />
-      <workItem from="1560820425655" duration="594000" />
-      <workItem from="1560821138699" duration="371000" />
-      <workItem from="1560826556042" duration="4417000" />
-      <workItem from="1560839168099" duration="2518000" />
-      <workItem from="1560853904378" duration="341000" />
-      <workItem from="1560854729797" duration="113000" />
-      <workItem from="1560855157598" duration="71000" />
-      <workItem from="1560855606255" duration="779000" />
-      <workItem from="1560906870657" duration="7000" />
-      <workItem from="1560935710552" duration="9000" />
-      <workItem from="1561087685477" duration="19548000" />
-      <workItem from="1561338192044" duration="13575000" />
-      <workItem from="1561361360853" duration="515000" />
-      <workItem from="1561367137447" duration="4209000" />
-      <workItem from="1561425606420" duration="19030000" />
-      <workItem from="1561457877604" duration="679000" />
-      <workItem from="1561512929288" duration="6000" />
-      <workItem from="1561513701179" duration="240000" />
-      <workItem from="1561516349690" duration="11769000" />
-      <workItem from="1561537372816" duration="112000" />
-      <workItem from="1561538199072" duration="892000" />
-      <workItem from="1561541898990" duration="634000" />
-      <workItem from="1561598980978" duration="24403000" />
-      <workItem from="1561633442926" duration="318000" />
-      <workItem from="1561770824539" duration="310000" />
-      <workItem from="1561771489571" duration="20319000" />
-      <workItem from="1561801624660" duration="1058000" />
-      <workItem from="1561944630167" duration="12677000" />
-      <workItem from="1562031771913" duration="7559000" />
-      <workItem from="1562048026380" duration="13829000" />
-      <workItem from="1562116646252" duration="20723000" />
-      <workItem from="1562202258836" duration="5602000" />
-      <workItem from="1562209453436" duration="3456000" />
-      <workItem from="1562221386957" duration="14855000" />
-      <workItem from="1562290479533" duration="15035000" />
-      <workItem from="1562313843874" duration="16511000" />
-      <workItem from="1562332062264" duration="924000" />
-      <workItem from="1562547893534" duration="15479000" />
-      <workItem from="1562635187123" duration="15312000" />
-      <workItem from="1562721696378" duration="12852000" />
-      <workItem from="1562809420115" duration="18479000" />
-      <workItem from="1562894972808" duration="19017000" />
-      <workItem from="1562981317200" duration="13325000" />
-      <workItem from="1563152990832" duration="22816000" />
-      <workItem from="1563240338366" duration="28263000" />
-      <workItem from="1563326163530" duration="28744000" />
-      <workItem from="1563413788388" duration="28435000" />
-      <workItem from="1563499451342" duration="25242000" />
-      <workItem from="1563585907681" duration="32838000" />
-      <workItem from="1563758072193" duration="13134000" />
-      <workItem from="1563869538333" duration="5656000" />
-      <workItem from="1563931372305" duration="27721000" />
-      <workItem from="1563977212915" duration="784000" />
-      <workItem from="1564018559739" duration="28816000" />
-      <workItem from="1564106982875" duration="26366000" />
-      <workItem from="1564365768495" duration="27738000" />
-      <workItem from="1564449235562" duration="16050000" />
-      <workItem from="1564537316030" duration="7914000" />
-      <workItem from="1564622497008" duration="39444000" />
-      <workItem from="1564714050391" duration="29458000" />
-      <workItem from="1564987129364" duration="3070000" />
-      <workItem from="1565056736132" duration="14520000" />
-      <workItem from="1565141896097" duration="16003000" />
-      <workItem from="1565231033202" duration="18633000" />
-      <workItem from="1565314678198" duration="8942000" />
-      <workItem from="1565417632454" duration="25615000" />
-      <workItem from="1565573905718" duration="27764000" />
-      <workItem from="1565659631237" duration="3129000" />
-      <workItem from="1565682637741" duration="260000" />
-      <workItem from="1565686566244" duration="385000" />
-      <workItem from="1565687729272" duration="3489000" />
-      <workItem from="1565692398617" duration="382000" />
-      <workItem from="1565692788636" duration="3000" />
-      <workItem from="1565746167610" duration="1658000" />
-      <workItem from="1565750685884" duration="6257000" />
-      <workItem from="1565777956596" duration="2029000" />
-      <workItem from="1565832534927" duration="8171000" />
-      <workItem from="1565923712204" duration="5121000" />
-      <workItem from="1566179909767" duration="956000" />
-      <workItem from="1566184617581" duration="6448000" />
-      <workItem from="1566202660700" duration="6071000" />
-      <workItem from="1566262834769" duration="4773000" />
-      <workItem from="1566384970470" duration="6185000" />
-      <workItem from="1566436350752" duration="103000" />
-      <workItem from="1566523534530" duration="12250000" />
-      <workItem from="1566550747315" duration="3570000" />
-      <workItem from="1566627497270" duration="6866000" />
-      <workItem from="1566781886781" duration="18929000" />
-      <workItem from="1566868902325" duration="89000" />
-      <workItem from="1566875478769" duration="3120000" />
-      <workItem from="1566885635537" duration="466000" />
-      <workItem from="1566886500522" duration="2231000" />
-      <workItem from="1566955834137" duration="2662000" />
-      <workItem from="1567075323167" duration="1321000" />
-      <workItem from="1567127425428" duration="638000" />
-      <workItem from="1567991732414" duration="10052000" />
-      <workItem from="1568010246499" duration="7109000" />
-      <workItem from="1568078446783" duration="7194000" />
-      <workItem from="1568106509952" duration="3873000" />
-      <workItem from="1568182529962" duration="5518000" />
-      <workItem from="1568250642170" duration="55000" />
-      <workItem from="1568251578746" duration="344000" />
-      <workItem from="1568252558098" duration="3379000" />
-      <workItem from="1568256721222" duration="1898000" />
-      <workItem from="1568262387543" duration="2233000" />
-      <workItem from="1573455499462" duration="3117000" />
-      <workItem from="1573463718476" duration="3331000" />
-      <workItem from="1573521172660" duration="13044000" />
-      <workItem from="1573542932634" duration="8518000" />
-      <workItem from="1573617223437" duration="7725000" />
-      <workItem from="1573693121917" duration="3563000" />
-      <workItem from="1573779205190" duration="3758000" />
-      <workItem from="1573801429192" duration="3212000" />
-      <workItem from="1574039326377" duration="2971000" />
-      <workItem from="1574065281078" duration="1440000" />
-      <workItem from="1574067059124" duration="4507000" />
-      <workItem from="1574126196433" duration="11006000" />
-      <workItem from="1574147898622" duration="5457000" />
-      <workItem from="1574155800861" duration="942000" />
-      <workItem from="1574156840951" duration="2149000" />
-      <workItem from="1574215554520" duration="9133000" />
-      <workItem from="1574226466537" duration="16193000" />
-      <workItem from="1574298441674" duration="7053000" />
-      <workItem from="1574313152993" duration="11066000" />
-      <workItem from="1574394471042" duration="1441000" />
-      <workItem from="1574397848224" duration="1546000" />
+      <updated>1574411859419</updated>
+      <workItem from="1574411862186" duration="1665000" />
+      <workItem from="1574415364129" duration="840000" />
     </task>
-    <task id="LOCAL-00001" summary="mybatis generator">
-      <created>1574158041572</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1574158041572</updated>
-    </task>
-    <task id="LOCAL-00002" summary="mybatis generator">
-      <created>1574219339326</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1574219339326</updated>
-    </task>
-    <task id="LOCAL-00003" summary="mybatis generator">
-      <created>1574219960756</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1574219960756</updated>
-    </task>
-    <task id="LOCAL-00004" summary="mybatis generator">
-      <created>1574220685810</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1574220685810</updated>
-    </task>
-    <task id="LOCAL-00005" summary="generatorConfig changes">
-      <created>1574222510488</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1574222510488</updated>
-    </task>
-    <task id="LOCAL-00006" summary="generatorConfig changes">
-      <created>1574225567892</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1574225567892</updated>
-    </task>
-    <task id="LOCAL-00007" summary="generatorConfig changes">
-      <created>1574236040298</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1574236040298</updated>
-    </task>
-    <task id="LOCAL-00008" summary="pom.xml config changes">
-      <created>1574237378324</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1574237378324</updated>
-    </task>
-    <task id="LOCAL-00009" summary="model changes">
-      <created>1574241660066</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1574241660066</updated>
-    </task>
-    <task id="LOCAL-00010" summary="model changes">
-      <created>1574243162119</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1574243162119</updated>
-    </task>
-    <task id="LOCAL-00011" summary="model changes">
-      <created>1574243489888</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1574243489888</updated>
-    </task>
-    <task id="LOCAL-00012" summary="model changes">
-      <created>1574243641447</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1574243641447</updated>
-    </task>
-    <task id="LOCAL-00013" summary="model changes">
-      <created>1574245092063</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1574245092063</updated>
-    </task>
-    <task id="LOCAL-00014" summary="model changes">
-      <created>1574299401721</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1574299401721</updated>
-    </task>
-    <task id="LOCAL-00015" summary="model changes">
-      <created>1574306189674</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1574306189674</updated>
-    </task>
-    <task id="LOCAL-00016" summary="model changes">
-      <created>1574306828940</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1574306828940</updated>
-    </task>
-    <task id="LOCAL-00017" summary="model changes">
-      <created>1574316068885</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1574316068885</updated>
-    </task>
-    <task id="LOCAL-00018" summary="model changes">
-      <created>1574329214513</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1574329214513</updated>
-    </task>
-    <option name="localTasksCounter" value="19" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -553,54 +323,5 @@
         </entry>
       </map>
     </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="11" />
-    <MESSAGE value="mybatis generator" />
-    <MESSAGE value="generatorConfig changes" />
-    <MESSAGE value="pom.xml config changes" />
-    <MESSAGE value="model changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="model changes" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand>
-      <path>
-        <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-        <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-      </path>
-    </expand>
-    <select />
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/20190331$text.ic" NAME="text Coverage Results" MODIFIED="1565689000054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.yuanqu.*</FILTER>
-    </SUITE>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="setValue">
-      <expression>
-        <expression-string>null</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
 </project>

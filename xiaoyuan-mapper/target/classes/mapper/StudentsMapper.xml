@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xiaoyuan.mapper.StudentsMapper" >
+  <resultMap id="BaseResultMap" type="com.xiaoyuan.model.Students" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="student_ID" property="studentId" jdbcType="INTEGER" />
+    <result column="class_id" property="classId" jdbcType="INTEGER" />
+    <result column="studentname" property="studentname" jdbcType="VARCHAR" />
+    <result column="grade" property="grade" jdbcType="VARCHAR" />
+    <result column="classname" property="classname" jdbcType="VARCHAR" />
+    <result column="schoolname" property="schoolname" jdbcType="VARCHAR" />
+    <result column="student_mobliephone" property="studentMobliephone" jdbcType="INTEGER" />
+    <result column="gurdian" property="gurdian" jdbcType="VARCHAR" />
+    <result column="gurdian_mobliephone" property="gurdianMobliephone" jdbcType="INTEGER" />
+    <result column="student_telephone" property="studentTelephone" jdbcType="INTEGER" />
+    <result column="status" property="status" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>

@@ -5,7 +5,7 @@
 <!--利用Mybatis generator自动生成是替代吗代码配置文件-->
 <generatorConfiguration>
 	<!--配置数据库驱动-->
-	<classPathEntry  location="E:\project\common\maven\localRepository\mysql\mysql-connector-java\5.1.41\mysql-connector-java-5.1.41.jar"/>
+	<classPathEntry  location="C:\Users\Administrator\.m2\repository\mysql\mysql-connector-java\5.1.41\mysql-connector-java-5.1.41.jar"/>
     <context id="MysqlContext" targetRuntime="MyBatis3Simple" defaultModelType="flat">
         <property name="beginningDelimiter" value="`"/>
         <property name="endingDelimiter" value="`"/>
@@ -38,7 +38,7 @@
 		</javaClientGenerator>
 
 		<!--配置要生成实体类代码的数据库名-->
-		<table tableName="tl_school_user_notes" domainObjectName="UserNotes" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+		<table tableName="tl_school_user_info" domainObjectName="UserInfo" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
 
     </context>
 </generatorConfiguration>

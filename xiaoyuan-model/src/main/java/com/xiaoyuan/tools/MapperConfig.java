@@ -3,6 +3,8 @@ package com.xiaoyuan.tools;
 import tk.mybatis.mapper.common.Mapper;
 import tk.mybatis.mapper.common.MySqlMapper;
 
+import static com.sun.javafx.tk.Toolkit.tk;
+
 /**
  * 乱码恢复
  * 
