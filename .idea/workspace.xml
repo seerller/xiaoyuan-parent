@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/xiaoyuan-service/src/main/java/com/xiaoyuan/service/ErpPickgoodsService.java" description="public List&lt;ErpPickgoodsDto&gt; selectOrderBySearchOf..." line="201" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="82ec60da-668d-44fb-92dd-b3c9a9a877ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/xiaoyuan-model/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaoyuan-model/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/yuanqu-model/target/" />
-    <ignored path="$PROJECT_DIR$/yuanqu-service/target/" />
-    <ignored path="$PROJECT_DIR$/yuanqu-webapi/target/" />
-    <ignored path="$PROJECT_DIR$/yuanqu-mapper/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/demos/target/" />
-    <ignored path="$PROJECT_DIR$/xiaoyuan-service/target/" />
-    <ignored path="$PROJECT_DIR$/xiaoyuan-model/target/" />
-    <ignored path="$PROJECT_DIR$/xiaoyuan-mapper/target/" />
-    <ignored path="$PROJECT_DIR$/xiaoyuan-webapi/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,46 +31,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="20190331" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/resources/generatorConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="34" column="46" lean-forward="true" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaoyuan/controller/TlErpAccountController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaoyuan/controller/TlErpAreaController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/config/CoreConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -155,72 +103,15 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PATH_TO_GIT" value="D:\Git\bin\git.exe" />
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--follow-tags" />
         <option name="title" value="Current Branch" />
       </GitPushTagMode>
     </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/yuanqu-mapper/src/main/resources/mapper/ErpPickgoodsMapper.xml" />
-        <option value="$PROJECT_DIR$/yuanqu-mapper/src/main/resources/mapper/RoleMapper.xml" />
-        <option value="$PROJECT_DIR$/yuanqu-model/src/main/java/com/yuanqu/model/dto/RoleDto.java" />
-        <option value="$PROJECT_DIR$/yuanqu-webapi/src/main/java/com/yuanqu/config/ShiroConfig.java" />
-        <option value="$PROJECT_DIR$/yuanqu-webapi/src/main/java/com/yuanqu/controller/SubController/SubAdminController.java" />
-        <option value="$PROJECT_DIR$/yuanqu-webapi/src/main/java/com/yuanqu/controller/SubController/SubCommonController.java" />
-        <option value="$PROJECT_DIR$/yuanqu-model/src/main/java/com/yuanqu/model/permission/Permission.java" />
-        <option value="$PROJECT_DIR$/yuanqu-model/src/main/java/com/yuanqu/model/tree/PermissionTree.java" />
-        <option value="$PROJECT_DIR$/yuanqu-mapper/src/main/resources/mapper/PermissionMapper.xml" />
-        <option value="$PROJECT_DIR$/yuanqu-webapi/src/main/java/com/yuanqu/controller/WebController/WebController.java" />
-        <option value="$PROJECT_DIR$/yuanqu-model/src/main/java/com/yuanqu/model/search/BaseSearch.java" />
-        <option value="$PROJECT_DIR$/yuanqu-mapper/src/main/resources/mapper/ErpDriverMapper.xml" />
-        <option value="$PROJECT_DIR$/yuanqu-mapper/src/main/java/com/yuanqu/mapper/ErpDriverMapper.java" />
-        <option value="$PROJECT_DIR$/yuanqu-service/src/main/java/com/yuanqu/service/IErpDriverService.java" />
-        <option value="$PROJECT_DIR$/yuanqu-service/src/main/java/com/yuanqu/service/ErpDriverService.java" />
-        <option value="$PROJECT_DIR$/yuanqu-model/src/main/java/com/yuanqu/model/search/ErpPickGoodsSearch.java" />
-        <option value="$PROJECT_DIR$/yuanqu-webapi/src/main/java/com/yuanqu/controller/WebController/WebAdminController.java" />
-        <option value="$PROJECT_DIR$/yuanqu-webapi/src/main/java/com/yuanqu/controller/CommonController/BaseController.java" />
-        <option value="$PROJECT_DIR$/yuanqu-service/pom.xml" />
-        <option value="$PROJECT_DIR$/xiaoyuan-service/pom.xml" />
-        <option value="$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/yuanqu/controller/ErpLoginController.java" />
-        <option value="$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/controller/ErpLoginController.java" />
-        <option value="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/tools/TreeUtil.java" />
-        <option value="$PROJECT_DIR$/xiaoyuan-webapi/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xiaoyuan/controller/TlErpAreaController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xiaoyuan/controller/BaseController.java" />
-        <option value="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/API.java" />
-        <option value="$PROJECT_DIR$/xiaoyuan-webapi/pom.xml" />
-        <option value="$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/SpringBootStartApplication.java" />
-        <option value="$PROJECT_DIR$/xiaoyuan-service/src/main/java/com/xiaoyuan/service/IErpAccountService.java" />
-        <option value="$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/config/SwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/controller/ErpAccountController.java" />
-        <option value="$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/SpringbootSwaggerstart.java" />
-        <option value="$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/controller/WebController/WebController.java" />
-        <option value="$PROJECT_DIR$/xiaoyuan-model/src/main/resources/mybatisGeneratorinit.properties.properties" />
-        <option value="$PROJECT_DIR$/xiaoyuan-mapper/pom.xml" />
-        <option value="$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/config/CoreConfig.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
-        <option value="$PROJECT_DIR$/xiaoyuan-webapi/src/main/resources/application-text.yml" />
-        <option value="$PROJECT_DIR$/xiaoyuan-webapi/src/main/resources/application-local.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/xiaoyuan-model/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xiaoyuan/controller/TlErpEquipmentCopyController.java" />
-        <option value="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/tools/GeneratorDisplay.java" />
-        <option value="$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/AttenceMapper.xml" />
-        <option value="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/Attence.java" />
-        <option value="$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/UserInfo.java" />
-        <option value="$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/shiro/realm/UserRealm.java" />
-        <option value="$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/config/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/shiro/session/ShiroSessionManager.java" />
-        <option value="$PROJECT_DIR$/xiaoyuan-model/src/main/resources/generatorConfig.xml" />
-      </list>
-    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -237,250 +128,14 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="xiaoyuan-mapper" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="xiaoyuan-mapper" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="xiaoyuan-model" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="xiaoyuan-model" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="xiaoyuan-model" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="xiaoyuan-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="xiaoyuan-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="xiaoyuan-webapi" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="xiaoyuan-webapi" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="187" />
-    <option name="y" value="21" />
-    <option name="width" value="1025" />
-    <option name="height" value="728" />
-  </component>
+  <component name="ProjectId" id="1TxGHkn8NaS1iCyySpIOqV4PZ4s" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-webapi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-webapi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-webapi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-webapi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-webapi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoyuan-webapi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -488,14 +143,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/project/xiaoyuan" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../xiaoyuan" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3226103" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -736,6 +397,8 @@
       <workItem from="1574226466537" duration="16193000" />
       <workItem from="1574298441674" duration="7053000" />
       <workItem from="1574313152993" duration="11066000" />
+      <workItem from="1574394471042" duration="1441000" />
+      <workItem from="1574397848224" duration="1546000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis generator">
       <created>1574158041572</created>
@@ -866,9 +529,6 @@
     <option name="localTasksCounter" value="19" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1179639000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -877,79 +537,6 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4949495" visible="true" weight="0.23390558" />
-      <window_info id="Structure" order="1" sideWeight="0.5050505" side_tool="true" weight="0.24566475" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5050505" side_tool="true" weight="0.24566475" />
-      <window_info id="Web" order="7" sideWeight="0.5050505" side_tool="true" weight="0.24566475" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3293011" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839056" weight="0.32852387" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49641833" weight="0.09153953" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32741398" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.32852387" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32963374" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50160944" side_tool="true" weight="0.22197558" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32852387" />
-      <window_info anchor="bottom" id="Database Changes" order="12" weight="0.32963374" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49927744" weight="0.3307436" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49205202" weight="0.32963374" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.2693133" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.32832617" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32875723" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4949495" visible="true" weight="0.23390558" />
-      <window_info id="Structure" order="1" sideWeight="0.5050505" side_tool="true" weight="0.24566475" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5050505" side_tool="true" weight="0.24566475" />
-      <window_info id="Web" order="7" sideWeight="0.5050505" side_tool="true" weight="0.24566475" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3293011" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839056" weight="0.32741398" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49641833" weight="0.09153953" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32741398" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.32852387" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32963374" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50160944" side_tool="true" weight="0.22197558" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32852387" />
-      <window_info anchor="bottom" id="Database Changes" order="12" weight="0.32963374" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49927744" weight="0.3307436" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49205202" weight="0.32963374" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.2693133" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.32832617" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32875723" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -960,20 +547,7 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -1002,6 +576,15 @@
     <MESSAGE value="model changes" />
     <option name="LAST_COMMIT_MESSAGE" value="model changes" />
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="xiaoyuan-parent" type="b2602c69:ProjectViewProjectNode" />
+        <item name="xiaoyuan-parent" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
@@ -1019,484 +602,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/dto/ErpGpsDeviceDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="103" selection-start-line="13" selection-start-column="103" selection-end-line="13" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/tools/ExcelUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="58" column="76" selection-start-line="58" selection-start-column="76" selection-end-line="58" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/tools/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/tools/FormatUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/tools/PoiWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1240">
-          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/tools/ExcelUtil2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-mapper/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" column="54" lean-forward="true" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/tools/BaiduLocationUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/ActivityMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/Teachers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/search/ErpGpsDeviceSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/role/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/permission/Permission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-mapper/src/main/resources/mapper/UserInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-mapper/src/main/java/com/xiaoyuan/mapper/UserInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="60" column="25" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1074#1075#0" expanded="true" />
-            <element signature="e#1183#1184#0" expanded="true" />
-            <element signature="e#1256#1257#0" expanded="true" />
-            <element signature="e#1351#1352#0" expanded="true" />
-            <element signature="e#1380#1381#0" expanded="true" />
-            <element signature="e#1483#1484#0" expanded="true" />
-            <element signature="e#1550#1551#0" expanded="true" />
-            <element signature="e#1654#1655#0" expanded="true" />
-            <element signature="e#1687#1688#0" expanded="true" />
-            <element signature="e#1802#1803#0" expanded="true" />
-            <element signature="e#1846#1847#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/config/ShiroConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/config/MultithreadScheduleTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="44" column="38" lean-forward="true" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/main.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/dto/ErpUserDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/dto/ErpGpsAlarmDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/dto/ErpDriverDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/dto/ErpCustomerDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/dto/ErpAccountDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/dto/ErpPickgoodsTotalDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/dto/ErpPickgoodsDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-service/src/main/java/com/xiaoyuan/service/MessageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-service/src/main/java/com/xiaoyuan/service/UserRoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="35" column="47" lean-forward="true" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaoyuan/controller/TlErpUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/controller/WebServiceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/controller/UserRoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/controller/WebController/WebAdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/controller/SubController/SubAdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/controller/SubController/SubCarController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/controller/SubController/SubCommonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/controller/SubController/SubUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/java/com/xiaoyuan/model/exception/LogicException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-417">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/controller/CommonController/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/controller/Publish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/resources/application-local.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="32" column="43" lean-forward="true" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/shiro/filter/LoginAuthenticationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="70" column="105" lean-forward="true" selection-start-line="70" selection-start-column="105" selection-end-line="70" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/shiro/realm/UserRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/shiro/session/ShiroSessionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaoyuan/controller/TlErpAccountController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaoyuan/controller/TlErpAreaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-webapi/src/main/java/com/xiaoyuan/config/CoreConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaoyuan-model/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="34" column="46" lean-forward="true" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>xiaoyuan-parent</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: mysql:mysql-connector-java:5.1.41</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.3226103" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
